@@ -44,6 +44,10 @@
     "terminal.external.windowsExec": "ConEmu64.exe",
     "terminal.integrated.fontSize": 17,
     "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.shell.windows": "pwsh.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "--nologo"
+    ],
     "window.newWindowDimensions": "inherit",
     "window.restoreWindows": "none",
     "window.zoomLevel": 0,
