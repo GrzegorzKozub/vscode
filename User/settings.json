@@ -1,58 +1,73 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "docker.showExplorer": false,
-    "editor.codeLens": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 17,
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "comment",
-                    "keyword.control",
-                    "punctuation.definition.comment",
-                    "source.css.scss entity.other.attribute-name",
-                    "source.css.scss entity.other.attribute-name.class",
-                    "text.html.basic entity.other.attribute-name",
-                    "text.html.basic entity.other.attribute-name.html",
-                    "text.html.derivative entity.other.attribute-name",
-                    "text.xml entity.other.attribute-name",
-                    "variable.language"
-                ],
-                "settings": {
-                    "fontStyle": ""
-                }
-            }
-        ]
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "explorer.openEditors.visible": 0,
-    "extensions.autoUpdate": false,
-    "extensions.ignoreRecommendations": true,
-    "files.hotExit": "onExitAndWindowClose",
-    "html.format.wrapLineLength": 0,
-    "material-icon-theme.activeIconPack": "none",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.showReloadMessage": false,
-    "material-icon-theme.showUpdateMessage": false,
-    "search.smartCase": true,
-    "terminal.external.windowsExec": "ConEmu64.exe",
-    "terminal.integrated.fontSize": 17,
-    "terminal.integrated.fontWeightBold": "normal",
-    "terminal.integrated.shell.windows": "pwsh.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "--nologo"
-    ],
-    "window.newWindowDimensions": "inherit",
-    "window.restoreWindows": "none",
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Material Theme",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "none"
+  "docker.showExplorer": false,
+  "editor.codeLens": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword.control",
+          "punctuation.definition.comment",
+          "source.css.scss entity.other.attribute-name",
+          "source.css.scss entity.other.attribute-name.class",
+          "text.html.basic entity.other.attribute-name",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.derivative entity.other.attribute-name",
+          "text.xml entity.other.attribute-name",
+          "variable.language"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "files.hotExit": "onExitAndWindowClose",
+  "html.format.wrapLineLength": 0,
+  "material-icon-theme.activeIconPack": "none",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.showReloadMessage": false,
+  "material-icon-theme.showUpdateMessage": false,
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "search.smartCase": true,
+  "terminal.external.windowsExec": "ConEmu64.exe",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.shell.windows": "pwsh.exe",
+  "terminal.integrated.shellArgs.windows": ["--nologo"],
+  "window.newWindowDimensions": "inherit",
+  "window.restoreWindows": "none",
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Material Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
