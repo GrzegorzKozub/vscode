@@ -27,11 +27,5 @@
   {
     "key": "ctrl+w up",
     "command": "workbench.action.navigateUp"
-  },
-  {
-    "key": "shift+alt+f",
-    "command": "workbench.action.tasks.runTask",
-    "args": "mix: format",
-    "when": "editorFocus && editorLangId == 'elixir'"
   }
 ]

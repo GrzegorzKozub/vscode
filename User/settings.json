@@ -28,6 +28,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "elixirLS.dialyzerEnabled": false,
   "explorer.openEditors.visible": 0,
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
