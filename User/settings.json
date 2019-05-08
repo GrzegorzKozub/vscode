@@ -1,27 +1,29 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "debug.toolBarLocation": "docked",
   "docker.showExplorer": false,
   "editor.codeLens": false,
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 17,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.tokenColorCustomizations": {
+    "comments": { "fontStyle": "" },
+    "functions": { "fontStyle": "" },
+    "keywords": { "fontStyle": "" },
+    "numbers": { "fontStyle": "" },
+    "strings": { "fontStyle": "" },
+    "types": { "fontStyle": "" },
+    "variables": { "fontStyle": "" },
     "textMateRules": [
       {
         "scope": [
-          "comment",
           "entity.other.attribute-name",
-          "entity.other.attribute-name.html",
-          "keyword.control",
-          "markup.bold",
-          "punctuation.definition.comment",
-          "variable.language"
+          "punctuation.definition.comment"
         ],
-        "settings": {
-          "fontStyle": ""
-        }
+        "settings": { "fontStyle": "" }
       }
     ]
   },
@@ -39,6 +41,7 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.showReloadMessage": false,
   "material-icon-theme.showUpdateMessage": false,
+  "npm.packageManager": "yarn",
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.powerShellExePath": "d:\\Apps\\PowerShell\\pwsh.exe",
   "powershell.sideBar.CommandExplorerVisibility": false,
@@ -54,9 +57,12 @@
   "window.restoreWindows": "none",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tips.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
