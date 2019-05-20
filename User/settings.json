@@ -6,7 +6,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 17,
+  "editor.fontSize": 16,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
   "editor.tokenColorCustomizations": {
