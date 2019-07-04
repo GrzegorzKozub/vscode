@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
   "docker.showExplorer": false,
   "editor.codeLens": false,
@@ -61,7 +62,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false,
   "workbench.tips.enabled": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
