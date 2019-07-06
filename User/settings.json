@@ -63,6 +63,7 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides":"none",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
