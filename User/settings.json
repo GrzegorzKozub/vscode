@@ -2,7 +2,6 @@
 {
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
-  "docker.showExplorer": false,
   "editor.codeLens": false,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code",
@@ -56,6 +55,7 @@
   "terminal.integrated.shellArgs.windows": ["--nologo"],
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Material Theme Palenight",
@@ -63,7 +63,7 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
-  "workbench.tree.renderIndentGuides":"none",
+  "workbench.tree.renderIndentGuides": "none",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
