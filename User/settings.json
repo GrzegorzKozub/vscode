@@ -45,8 +45,6 @@
   "powershell.integratedConsole.showOnStartup": false,
   "powershell.powerShellExePath": "d:\\Apps\\PowerShell\\pwsh.exe",
   "powershell.sideBar.CommandExplorerVisibility": false,
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "search.smartCase": true,
   "terminal.external.windowsExec": "ConEmu64.exe",
   "terminal.integrated.fontSize": 17,
