@@ -21,7 +21,8 @@
       {
         "scope": [
           "entity.other.attribute-name",
-          "punctuation.definition.comment"
+          "punctuation.definition.comment",
+          "variable.language"
         ],
         "settings": { "fontStyle": "" }
       }
