@@ -57,7 +57,6 @@
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
