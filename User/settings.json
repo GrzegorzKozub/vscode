@@ -4,7 +4,7 @@
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.minimap.enabled": false,
