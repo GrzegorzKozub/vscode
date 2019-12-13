@@ -48,6 +48,7 @@
   "terminal.external.windowsExec": "ConEmu64.exe",
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.rendererType": "experimentalWebgl",
   "terminal.integrated.shell.windows": "pwsh.exe",
   "terminal.integrated.shell.linux": "zsh",
   "terminal.integrated.shellArgs.windows": ["--nologo"],
