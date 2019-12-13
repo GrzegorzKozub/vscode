@@ -35,6 +35,8 @@
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
   "files.hotExit": "onExitAndWindowClose",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
   "html.format.wrapLineLength": 0,
   "material-icon-theme.activeIconPack": "none",
   "material-icon-theme.hidesExplorerArrows": true,
