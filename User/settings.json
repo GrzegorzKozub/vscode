@@ -3,7 +3,6 @@
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
@@ -21,7 +20,9 @@
       {
         "scope": [
           "entity.other.attribute-name",
+          "markup.bold",
           "markup.underline.link.markdown",
+          "markup.quote",
           "punctuation.definition.comment",
           "variable.language"
         ],
@@ -59,7 +60,7 @@
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.colorTheme": "Material Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
