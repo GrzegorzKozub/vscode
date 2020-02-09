@@ -49,7 +49,7 @@
   "powershell.powerShellExePath": "d:\\Apps\\PowerShell\\pwsh.exe",
   "powershell.sideBar.CommandExplorerVisibility": false,
   "search.smartCase": true,
-  "terminal.external.windowsExec": "ConEmu64.exe",
+  "terminal.external.windowsExec": "wt.exe",
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.rendererType": "experimentalWebgl",
