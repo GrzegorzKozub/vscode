@@ -23,7 +23,7 @@
           "markup.bold",
           "markup.underline.link.markdown",
           "markup.quote",
-          "punctuation.definition.comment",
+          "comment punctuation.definition.comment",
           "variable.language"
         ],
         "settings": { "fontStyle": "" }
@@ -63,8 +63,8 @@
   "workbench.colorCustomizations": {
     "[Material Theme Palenight]": {
       "terminalCursor.background": "#292d3e",
-      "terminal.ansiBrightBlack": "#292d3e",
-      "terminal.ansiBlack": "#292d3e"
+      "terminal.ansiBlack": "#292d3e",
+      "terminal.ansiBrightBlack": "#292d3e"
     },
     "terminalCursor.foreground": "#839496",
     "terminal.foreground": "#839496",
