@@ -52,7 +52,7 @@
   "terminal.external.windowsExec": "wt.exe",
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.rendererType": "experimentalWebgl",
+  // "terminal.integrated.rendererType": "experimentalWebgl", // breaks nerd fonts
   "terminal.integrated.shell.windows": "pwsh.exe",
   "terminal.integrated.shell.linux": "zsh",
   "terminal.integrated.shellArgs.windows": ["--nologo"],
@@ -61,10 +61,13 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
+    "[Material Theme Palenight]": {
+      "terminalCursor.background": "#292d3e",
+      "terminal.ansiBrightBlack": "#292d3e",
+      "terminal.ansiBlack": "#292d3e"
+    },
     "terminalCursor.foreground": "#839496",
-    "terminalCursor.background": "#003541",
     "terminal.foreground": "#839496",
-    "terminal.ansiBlack": "#003541",
     "terminal.ansiRed": "#dc322f",
     "terminal.ansiGreen": "#859901",
     "terminal.ansiYellow": "#b58901",
@@ -72,7 +75,6 @@
     "terminal.ansiMagenta": "#d33682",
     "terminal.ansiCyan": "#2aa198",
     "terminal.ansiWhite": "#eee8d5",
-    "terminal.ansiBrightBlack": "#586e75",
     "terminal.ansiBrightRed": "#cb4b16",
     "terminal.ansiBrightGreen": "#586e75",
     "terminal.ansiBrightYellow": "#657b83",
