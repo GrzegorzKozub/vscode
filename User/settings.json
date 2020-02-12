@@ -81,7 +81,7 @@
     "terminal.ansiBrightCyan": "#93a1a1",
     "terminal.ansiBrightWhite": "#fdf6e3"
   },
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
