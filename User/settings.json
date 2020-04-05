@@ -14,21 +14,9 @@
     "keywords": { "fontStyle": "" },
     "numbers": { "fontStyle": "" },
     "strings": { "fontStyle": "" },
+    "textMateRules": [ { "scope": [ ], "settings": { "fontStyle": "" } } ],
     "types": { "fontStyle": "" },
-    "variables": { "fontStyle": "" },
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.other.attribute-name",
-          "markup.bold",
-          "markup.underline.link.markdown",
-          "markup.quote",
-          "comment punctuation.definition.comment",
-          "variable.language"
-        ],
-        "settings": { "fontStyle": "" }
-      }
-    ]
+    "variables": { "fontStyle": "" }
   },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "elixirLS.dialyzerEnabled": false,
@@ -39,20 +27,30 @@
   "files.hotExit": "onExitAndWindowClose",
   "go.formatTool": "goimports",
   "go.useLanguageServer": true,
+  "gruvboxMaterial.darkContrast": "soft",
+  "gruvboxMaterial.darkPalette": "material",
+  "gruvboxMaterial.darkWorkbench": "flat",
+  "gruvboxMaterial.italicComments": false,
+  "gruvboxMaterial.lightContrast": "soft",
+  "gruvboxMaterial.lightPalette": "material",
+  "gruvboxMaterial.lightWorkbench": "flat",
   "html.format.wrapLineLength": 0,
   "material-icon-theme.activeIconPack": "none",
+  "material-icon-theme.folders.color": "#a89984",
+  "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 0.5,
   "material-icon-theme.showReloadMessage": false,
   "material-icon-theme.showUpdateMessage": false,
   "npm.packageManager": "npm",
-  "powershell.integratedConsole.showOnStartup": false,
-  "powershell.powerShellExePath": "d:\\Apps\\PowerShell\\pwsh.exe",
-  "powershell.sideBar.CommandExplorerVisibility": false,
+  // "powershell.integratedConsole.showOnStartup": false,
+  // "powershell.powerShellExePath": "d:\\Apps\\PowerShell\\pwsh.exe",
+  // "powershell.sideBar.CommandExplorerVisibility": false,
   "search.smartCase": true,
   "terminal.external.windowsExec": "wt.exe",
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
-  // "terminal.integrated.rendererType": "experimentalWebgl", // breaks nerd fonts
+  // "terminal.integrated.rendererType": "experimentalWebgl",
   "terminal.integrated.shell.windows": "pwsh.exe",
   "terminal.integrated.shell.linux": "zsh",
   "terminal.integrated.shellArgs.windows": ["--nologo"],
@@ -61,12 +59,14 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
-    "[Material Theme Palenight]": {
-      "terminal.ansiBlack": "#292d3e",
-      // "terminal.ansiBrightBlack": "#292d3e"
+    "[Gruvbox Material Dark]": {
+      "terminal.ansiBlack": "#32302f",
     },
+    "[Gruvbox Material Light]": {
+      "terminal.ansiBlack": "#f2e5bc",
+    }
   },
-  "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.colorTheme": "Gruvbox Material Light",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
@@ -77,5 +77,7 @@
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
