@@ -13,6 +13,10 @@
     "command": "workbench.action.files.saveAll"
   },
   {
+    "key": "ctrl+f4",
+    "command": "workbench.action.closeActiveEditor",
+  },
+  {
     "key": "ctrl+w down",
     "command": "workbench.action.navigateDown"
   },
@@ -27,5 +31,17 @@
   {
     "key": "ctrl+w up",
     "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+  },
+  {
+    "key": "ctrl+[ s",
+    "command": "revealInExplorer",
   }
 ]
