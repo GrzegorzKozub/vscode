@@ -60,11 +60,13 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
+      "terminal.ansiWhite": "#654735", // 7
       "terminal.ansiBrightGreen": "#928374", // 14
       "terminal.ansiBrightBlue": "#928374", // 12
       "terminal.ansiBrightCyan": "#d4be98" // 10
     },
     "[Gruvbox Material Light]": {
+      "terminal.ansiWhite": "#d4be98", // 7
       "terminal.ansiBrightGreen": "#654735", // 10
       "terminal.ansiBrightBlue": "#a69883", // 12
       "terminal.ansiBrightCyan": "#a69883" // 14
