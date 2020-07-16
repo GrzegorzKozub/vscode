@@ -39,9 +39,5 @@
   {
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
-  },
-  {
-    "key": "ctrl+[ s",
-    "command": "revealInExplorer",
   }
 ]
