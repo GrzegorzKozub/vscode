@@ -8,6 +8,7 @@
   "editor.fontSize": 16,
   "editor.minimap.enabled": false,
   "editor.renderIndentGuides": false,
+  "editor.renderWhitespace": "trailing",
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": false,
   "editor.tokenColorCustomizations": {
