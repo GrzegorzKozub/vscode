@@ -83,6 +83,7 @@
     }
   },
   "workbench.colorTheme": "Gruvbox Material Light",
+  "workbench.editor.showTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": false,
   "workbench.settings.editor": "json",
