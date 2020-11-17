@@ -1,6 +1,5 @@
 {
   "breadcrumbs.enabled": false,
-  "cfnLint.validateUsingJsonSchema": true, // https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code/issues/97
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
   "editor.fontFamily": "Fira Code Retina, Fira Code",
@@ -121,7 +120,7 @@
     "!Sub sequence",
     "!Sub"
   ],
-  "yaml.format.enable": true,
+  "yaml.validate": false, // https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code/issues/97
   "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
