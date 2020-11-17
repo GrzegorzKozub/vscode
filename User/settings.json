@@ -1,6 +1,6 @@
-// Place your settings in this file to overwrite the default settings
 {
   "breadcrumbs.enabled": false,
+  "cfnLint.validateUsingJsonSchema": true, // https://github.com/aws-cloudformation/aws-cfn-lint-visual-studio-code/issues/97
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
   "editor.fontFamily": "Fira Code Retina, Fira Code",
