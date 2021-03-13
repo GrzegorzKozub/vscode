@@ -10,7 +10,7 @@
   "editor.renderIndentGuides": false,
   "editor.renderWhitespace": "trailing",
   "editor.semanticHighlighting.enabled": false,
-  "editor.smoothScrolling": false,
+  "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": {
     "comments": { "fontStyle": "" },
     "functions": { "fontStyle": "" },
@@ -85,7 +85,7 @@
   "workbench.colorTheme": "Gruvbox Material Light",
   "workbench.editor.showTabs": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.list.smoothScrolling": false,
+  "workbench.list.smoothScrolling": true,
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
