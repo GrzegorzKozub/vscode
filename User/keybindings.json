@@ -38,5 +38,9 @@
   {
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.openNativeConsole",
   }
 ]
