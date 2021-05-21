@@ -81,20 +81,15 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
-      "terminal.ansiWhite": "#654735", // 7
-      "terminal.ansiBrightGreen": "#928374", // 14
-      "terminal.ansiBrightBlue": "#928374", // 12
-      "terminal.ansiBrightCyan": "#d4be98" // 10
+      "terminalCursor.foreground": "#928374"
     },
     "[Gruvbox Material Light]": {
-      "terminal.ansiWhite": "#d4be98", // 7
-      "terminal.ansiBrightGreen": "#654735", // 10
-      "terminal.ansiBrightBlue": "#a69883", // 12
-      "terminal.ansiBrightCyan": "#a69883" // 14
+      "terminalCursor.foreground": "#928374"
     }
   },
-  "workbench.colorTheme": "Gruvbox Material Light",
+  "workbench.colorTheme": "Gruvbox Material Dark",
   "workbench.editor.showTabs": true,
+  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "icons-carbon",
