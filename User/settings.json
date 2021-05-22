@@ -87,7 +87,7 @@
       "terminalCursor.foreground": "#928374"
     }
   },
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "Gruvbox Material Light",
   "workbench.editor.showTabs": true,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
