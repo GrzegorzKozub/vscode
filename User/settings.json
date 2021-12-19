@@ -1,7 +1,6 @@
 {
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
-  "docker.showStartPage": false,
   "editor.codeLens": false,
   "editor.fontFamily": "Fira Code Retina, Fira Code",
   "editor.fontLigatures": true,
