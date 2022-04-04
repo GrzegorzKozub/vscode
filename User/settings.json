@@ -49,6 +49,7 @@
   "material-icon-theme.showUpdateMessage": false,
   "npm.packageManager": "npm",
   "python.languageServer": "Pylance",
+  "python.linting.pylintEnabled": true,
   "redhat.telemetry.enabled": false,
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
