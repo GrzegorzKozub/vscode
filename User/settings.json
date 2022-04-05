@@ -35,7 +35,7 @@
   "gruvboxMaterial.lightContrast": "soft",
   "gruvboxMaterial.lightPalette": "material",
   "gruvboxMaterial.lightWorkbench": "flat",
-  "hexeditor.columnWidth": 32,
+  "hexeditor.columnWidth": 24,
   "hexeditor.inspectorType": "hover",
   "html.format.wrapLineLength": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -89,6 +89,7 @@
     }
   },
   "workbench.colorTheme": "Gruvbox Material Light",
+  "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
   "workbench.editor.showTabs": true,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
