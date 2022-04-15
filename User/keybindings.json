@@ -8,16 +8,56 @@
     "command": "explorer.newFolder"
   },
   {
+    "key": "ctrl+f11",
+    "command": "extension.node-debug.startWithStopOnEntry",
+    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
+  },
+  {
+    "key": "f11",
+    "command": "-extension.node-debug.startWithStopOnEntry",
+    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+f11",
+    "command": "workbench.action.debug.stepInto",
+    "when": "debugState != 'inactive'"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.debug.stepInto",
+    "when": "debugState != 'inactive'"
+  },
+  {
     "key": "ctrl+shift+s",
     "command": "workbench.action.files.saveAll"
   },
   {
-    "key": "ctrl+f4",
-    "command": "workbench.action.closeActiveEditor",
+    "key": "ctrl+w e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+w p",
+    "command": "workbench.action.focusPanel"
+  },
+  {
+    "key": "ctrl+w s",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack"
   },
   {
     "key": "ctrl+w down",
     "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward"
   },
   {
     "key": "ctrl+w left",
@@ -32,39 +72,21 @@
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "alt+left",
-    "command": "workbench.action.navigateBack",
+    "when": "panelFocus",
+    "key": "ctrl+tab",
+    "command": "workbench.action.nextPanelView"
   },
   {
-    "key": "alt+right",
-    "command": "workbench.action.navigateForward",
+    "when": "panelFocus",
+    "key": "ctrl+shift+tab",
+    "command": "workbench.action.previousPanelView"
   },
   {
     "key": "ctrl+shift+t",
-    "command": "workbench.action.terminal.openNativeConsole",
+    "command": "workbench.action.terminal.openNativeConsole"
   },
   {
     "key": "ctrl+shift+j",
     "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
-    "key": "ctrl+f11",
-    "command": "extension.node-debug.startWithStopOnEntry",
-    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
-  },
-  {
-    "key": "f11",
-    "command": "-extension.node-debug.startWithStopOnEntry",
-    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
-  },
-  {
-    "key": "ctrl+f11",
-    "command": "workbench.action.debug.stepInto",
-    "when": "debugState != 'inactive'"
-  },
-  {
-    "key": "f11",
-    "command": "-workbench.action.debug.stepInto",
-    "when": "debugState != 'inactive'"
-  },
+  }
 ]
