@@ -59,6 +59,7 @@
   "terminal.external.windowsExec": "wt.exe",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
+  "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.mouseWheelScrollSensitivity": 2,
@@ -75,6 +76,7 @@
       "path": "pwsh.exe"
     }
   },
+  "terminal.integrated.tabs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
