@@ -1,4 +1,6 @@
 {
+  "bookmarks.gutterIconBorderColor": "#928374",
+  "bookmarks.gutterIconFillColor": "#928374",
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
@@ -84,9 +86,11 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
-      "terminalCursor.foreground": "#928374"
+      "bookmarks.overviewRuler": "#928374",
+      "terminalCursor.foreground": "#928374",
     },
     "[Gruvbox Material Light]": {
+      "bookmarks.overviewRuler": "#928374",
       "terminalCursor.foreground": "#928374"
     }
   },
