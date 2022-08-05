@@ -80,6 +80,7 @@
   },
   "terminal.integrated.tabs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.commandCenter": true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
