@@ -13,6 +13,7 @@
   "editor.renderWhitespace": "trailing",
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
   "editor.tokenColorCustomizations": {
     "comments": { "fontStyle": "" },
     "functions": { "fontStyle": "" },
@@ -78,6 +79,8 @@
       "path": "pwsh.exe"
     }
   },
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.tabs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.commandCenter": true,
@@ -88,7 +91,7 @@
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
       "bookmarks.overviewRuler": "#83a598",
-      "terminalCursor.foreground": "#928374",
+      "terminalCursor.foreground": "#928374"
     },
     "[Gruvbox Material Light]": {
       "bookmarks.overviewRuler": "#83a598",
