@@ -14,16 +14,6 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
-  "editor.tokenColorCustomizations": {
-    "comments": { "fontStyle": "" },
-    "functions": { "fontStyle": "" },
-    "keywords": { "fontStyle": "" },
-    "numbers": { "fontStyle": "" },
-    "strings": { "fontStyle": "" },
-    "textMateRules": [{ "scope": [], "settings": { "fontStyle": "" } }],
-    "types": { "fontStyle": "" },
-    "variables": { "fontStyle": "" }
-  },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "elixirLS.dialyzerEnabled": false,
   "explorer.openEditors.visible": 0,
@@ -91,11 +81,13 @@
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
       "bookmarks.overviewRuler": "#83a598",
-      "terminalCursor.foreground": "#928374"
+      "editorStickyScrollHover.background": "#32302f",
+      "terminalCursor.foreground": "#928374",
     },
     "[Gruvbox Material Light]": {
       "bookmarks.overviewRuler": "#83a598",
-      "terminalCursor.foreground": "#928374"
+      "editorStickyScrollHover.background": "#f2e5bc",
+      "terminalCursor.foreground": "#928374",
     }
   },
   "workbench.colorTheme": "Gruvbox Material Light",
