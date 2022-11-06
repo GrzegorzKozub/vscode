@@ -38,8 +38,6 @@
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.saturation": 0.5,
-  "material-icon-theme.showReloadMessage": false,
-  "material-icon-theme.showUpdateMessage": false,
   "npm.packageManager": "npm",
   "python.languageServer": "Pylance",
   "python.linting.pylintEnabled": true,
