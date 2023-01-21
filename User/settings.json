@@ -5,7 +5,7 @@
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
   "editor.fontFamily": "Cascadia Code, Fira Code Retina",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": "'calt', 'ss01'",
   "editor.fontSize": 16,
   "editor.guides.indentation": false,
   "editor.minimap.enabled": false,
