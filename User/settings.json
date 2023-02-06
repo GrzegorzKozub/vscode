@@ -21,7 +21,7 @@
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
   "files.hotExit": "onExitAndWindowClose",
-  "git.openRepositoryInParentFolders": "never",
+  "git.openRepositoryInParentFolders": "always",
   "gruvboxMaterial.darkContrast": "soft",
   "gruvboxMaterial.darkPalette": "material",
   "gruvboxMaterial.darkWorkbench": "material",
