@@ -30,8 +30,6 @@
   "gruvboxMaterial.lightContrast": "soft",
   "gruvboxMaterial.lightPalette": "material",
   "gruvboxMaterial.lightWorkbench": "material",
-  "hexeditor.columnWidth": 24,
-  "hexeditor.inspectorType": "hover",
   "html.format.wrapLineLength": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "json.schemaDownload.enable": true,
