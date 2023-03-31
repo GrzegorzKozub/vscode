@@ -90,7 +90,6 @@
     }
   },
   "workbench.colorTheme": "Gruvbox Material Light",
-  "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
   "workbench.editor.showTabs": true,
   "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
