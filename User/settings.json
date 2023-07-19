@@ -16,7 +16,6 @@
   "editor.stickyScroll.enabled": true,
   "elixirLS.dialyzerEnabled": false,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "explorer.openEditors.visible": 0,
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
