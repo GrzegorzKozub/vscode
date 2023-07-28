@@ -6,7 +6,7 @@
   "editor.codeLens": false,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": "'calt', 'ss01'",
-  "editor.fontSize": 16,
+  "editor.fontSize": 17,
   "editor.guides.indentation": false,
   "editor.minimap.enabled": false,
   "editor.mouseWheelScrollSensitivity": 2,
@@ -50,9 +50,9 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.mouseWheelScrollSensitivity": 2,
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
   "terminal.integrated.profiles.linux": {
     "zsh": {
       "icon": "terminal",
