@@ -50,7 +50,7 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.mouseWheelScrollSensitivity": 2,
   "terminal.integrated.profiles.linux": {
