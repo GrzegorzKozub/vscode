@@ -39,7 +39,6 @@
   "material-icon-theme.saturation": 0.5,
   "npm.packageManager": "npm",
   "python.languageServer": "Pylance",
-  "python.linting.pylintEnabled": true,
   "redhat.telemetry.enabled": false,
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
