@@ -102,8 +102,8 @@
     }
   },
   "workbench.colorTheme": "Gruvbox Material Light",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.showTabs": true,
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.productIconTheme": "icons-carbon",
