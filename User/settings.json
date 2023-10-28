@@ -1,6 +1,4 @@
 {
-  "bookmarks.gutterIconBorderColor": "#83a598",
-  "bookmarks.gutterIconFillColor": "#83a598",
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
