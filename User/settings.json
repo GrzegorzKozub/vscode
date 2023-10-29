@@ -83,7 +83,6 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
-      "bookmarks.overviewRuler": "#83a598",
       "editorInlayHint.foreground": "#7c6f64",
       "editorInlayHint.typeForeground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
@@ -91,7 +90,6 @@
       "terminalCursor.foreground": "#928374"
     },
     "[Gruvbox Material Light]": {
-      "bookmarks.overviewRuler": "#83a598",
       "editorInlayHint.foreground": "#a89984",
       "editorInlayHint.typeForeground": "#a89984",
       "editorInlayHint.parameterForeground": "#a89984",
