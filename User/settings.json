@@ -108,13 +108,6 @@
   "workbench.tips.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "yaml.validate": false,
-  "[cucumber]": { "editor.semanticHighlighting.enabled": true },
-  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "yaml.customTags": [
     "!And",
     "!And sequence",
@@ -143,5 +136,13 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ]
+  ],
+  "[cucumber]": { "editor.semanticHighlighting.enabled": true },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }
