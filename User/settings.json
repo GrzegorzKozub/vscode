@@ -28,6 +28,7 @@
   "gruvboxMaterial.lightPalette": "material",
   "gruvboxMaterial.lightWorkbench": "material",
   "html.format.wrapLineLength": 0,
+  "isort.args": ["--profile", "black"],
   "javascript.updateImportsOnFileMove.enabled": "always",
   "json.schemaDownload.enable": true,
   "material-icon-theme.activeIconPack": "none",
