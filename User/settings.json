@@ -107,6 +107,7 @@
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": true,
   "workbench.tree.renderIndentGuides": "none",
   "yaml.validate": false,
   "yaml.customTags": [
