@@ -12,7 +12,6 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.stickyScroll.enabled": true,
-  "elixirLS.dialyzerEnabled": false,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
