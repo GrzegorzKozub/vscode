@@ -60,6 +60,7 @@
   "python.analysis.inlayHints.variableTypes": true,
   "python.languageServer": "Pylance",
   "redhat.telemetry.enabled": false,
+  "rust-analyzer.check.command": "clippy",
   "rust-analyzer.inlayHints.bindingModeHints.enable": true,
   "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
   "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
