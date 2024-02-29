@@ -12,7 +12,6 @@
   "editor.renderWhitespace": "trailing",
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.stickyScroll.enabled": true,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
