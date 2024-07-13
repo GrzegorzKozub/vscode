@@ -4,7 +4,7 @@
   "editor.codeLens": false,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": "'calt', 'ss01'",
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.minimap.enabled": false,
