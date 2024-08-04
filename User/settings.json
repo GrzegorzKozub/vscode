@@ -13,6 +13,9 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
   "files.hotExit": "onExitAndWindowClose",
@@ -107,6 +110,7 @@
   "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
+  "vscode-neovim.neovimClean": true,
   "window.commandCenter": true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
