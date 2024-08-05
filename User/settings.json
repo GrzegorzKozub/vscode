@@ -2,6 +2,8 @@
   "breadcrumbs.enabled": false,
   "debug.toolBarLocation": "docked",
   "editor.codeLens": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSurroundingLines": 4,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": "'calt', 'ss01'",
   "editor.fontSize": 16,
@@ -13,9 +15,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
-  },
+  "extensions.experimental.affinity": { "asvetliakov.vscode-neovim": 1 },
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
   "files.hotExit": "onExitAndWindowClose",
@@ -78,6 +78,7 @@
   "terminal.external.linuxExec": "kitty",
   "terminal.external.osxExec": "kitty",
   "terminal.external.windowsExec": "wt.exe",
+  "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.enablePersistentSessions": false,
@@ -110,7 +111,6 @@
   "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
-  "vscode-neovim.neovimClean": true,
   "window.commandCenter": true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
@@ -118,17 +118,23 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
+      "editorCursor.background": "#32302f",
+      "editorCursor.foreground": "#928374",
       "editorInlayHint.foreground": "#7c6f64",
-      "editorInlayHint.typeForeground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
+      "editorInlayHint.typeForeground": "#7c6f64",
       "editorStickyScrollHover.background": "#32302f",
+      "terminalCursor.background": "#32302f",
       "terminalCursor.foreground": "#928374"
     },
     "[Gruvbox Material Light]": {
+      "editorCursor.background": "#f2e5bc",
+      "editorCursor.foreground": "#928374",
       "editorInlayHint.foreground": "#a89984",
-      "editorInlayHint.typeForeground": "#a89984",
       "editorInlayHint.parameterForeground": "#a89984",
+      "editorInlayHint.typeForeground": "#a89984",
       "editorStickyScrollHover.background": "#f2e5bc",
+      "terminalCursor.background": "#f2e5bc",
       "terminalCursor.foreground": "#928374"
     }
   },

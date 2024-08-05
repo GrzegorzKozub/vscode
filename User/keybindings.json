@@ -1,35 +1,15 @@
 [
   {
-    "key": "ctrl+shift+n",
+    "key": "ctrl+n",
     "command": "explorer.newFile"
   },
   {
-    "key": "ctrl+alt+shift+n",
+    "key": "ctrl+shift+n",
     "command": "explorer.newFolder"
-  },
-  {
-    "key": "ctrl+f11",
-    "command": "extension.node-debug.startWithStopOnEntry",
-    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
-  },
-  {
-    "key": "f11",
-    "command": "-extension.node-debug.startWithStopOnEntry",
-    "when": "!inDebugMode && debugConfigurationType == 'node' || !inDebugMode && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && debugConfigurationType == 'pwa-node'"
   },
   {
     "key": "ctrl+f4",
     "command": "workbench.action.closeActiveEditor"
-  },
-  {
-    "key": "ctrl+f11",
-    "command": "workbench.action.debug.stepInto",
-    "when": "debugState != 'inactive'"
-  },
-  {
-    "key": "f11",
-    "command": "-workbench.action.debug.stepInto",
-    "when": "debugState != 'inactive'"
   },
   {
     "key": "ctrl+shift+s",
@@ -52,12 +32,16 @@
     "command": "workbench.action.navigateBack"
   },
   {
-    "key": "ctrl+w down",
-    "command": "workbench.action.navigateDown"
-  },
-  {
     "key": "alt+right",
     "command": "workbench.action.navigateForward"
+  },
+  {
+    "key": "ctrl+w up",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "ctrl+w down",
+    "command": "workbench.action.navigateDown"
   },
   {
     "key": "ctrl+w left",
@@ -66,10 +50,6 @@
   {
     "key": "ctrl+w right",
     "command": "workbench.action.navigateRight"
-  },
-  {
-    "key": "ctrl+w up",
-    "command": "workbench.action.navigateUp"
   },
   {
     "when": "panelFocus",
@@ -82,11 +62,15 @@
     "command": "workbench.action.previousPanelView"
   },
   {
-    "key": "ctrl+shift+t",
-    "command": "workbench.action.terminal.openNativeConsole"
+    "when": "editorTextFocus",
+    "key": "ctrl+c",
+    "command": "vscode-neovim.send",
+    "args": "<c-c>"
   },
   {
-    "key": "ctrl+shift+j",
-    "command": "workbench.action.toggleMaximizedPanel"
+    "when": "editorTextFocus",
+    "key": "ctrl+x",
+    "command": "vscode-neovim.send",
+    "args": "<c-x>"
   }
 ]
