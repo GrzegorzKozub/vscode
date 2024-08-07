@@ -73,16 +73,11 @@
     "command": "vscode-neovim.send",
     "args": "<c-x>"
   },
+  { "key": "ctrl+z", "command": "undo" },
+  { "key": "ctrl+y", "command": "redo" },
   {
-    "when": "editorTextFocus",
-    "key": "ctrl+y",
-    "command": "vscode-neovim.send",
-    "args": "<c-r>"
-  },
-  {
-    "when": "editorTextFocus",
-    "key": "ctrl+z",
-    "command": "vscode-neovim.send",
-    "args": "u"
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
   }
 ]
