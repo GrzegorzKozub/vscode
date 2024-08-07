@@ -72,5 +72,17 @@
     "key": "ctrl+x",
     "command": "vscode-neovim.send",
     "args": "<c-x>"
+  },
+  {
+    "when": "editorTextFocus",
+    "key": "ctrl+y",
+    "command": "vscode-neovim.send",
+    "args": "<c-r>"
+  },
+  {
+    "when": "editorTextFocus",
+    "key": "ctrl+z",
+    "command": "vscode-neovim.send",
+    "args": "u"
   }
 ]
