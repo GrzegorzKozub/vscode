@@ -1,83 +1,45 @@
 [
+  { "key": "ctrl+n", "command": "explorer.newFile" },
+  { "key": "ctrl+shift+n", "command": "explorer.newFolder" },
+  { "key": "ctrl+f4", "command": "workbench.action.closeActiveEditor" },
+  { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
+  { "key": "ctrl+w e", "command": "workbench.action.focusActiveEditorGroup" },
+  { "key": "ctrl+w p", "command": "workbench.action.focusPanel" },
+  { "key": "ctrl+w s", "command": "workbench.action.focusSideBar" },
+  { "key": "alt+left", "command": "workbench.action.navigateBack" },
+  { "key": "alt+right", "command": "workbench.action.navigateForward" },
+  { "key": "ctrl+w up", "command": "workbench.action.navigateUp" },
+  { "key": "ctrl+w down", "command": "workbench.action.navigateDown" },
+  { "key": "ctrl+w left", "command": "workbench.action.navigateLeft" },
+  { "key": "ctrl+w right", "command": "workbench.action.navigateRight" },
   {
-    "key": "ctrl+n",
-    "command": "explorer.newFile"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "explorer.newFolder"
-  },
-  {
-    "key": "ctrl+f4",
-    "command": "workbench.action.closeActiveEditor"
-  },
-  {
-    "key": "ctrl+shift+s",
-    "command": "workbench.action.files.saveAll"
-  },
-  {
-    "key": "ctrl+w e",
-    "command": "workbench.action.focusActiveEditorGroup"
-  },
-  {
-    "key": "ctrl+w p",
-    "command": "workbench.action.focusPanel"
-  },
-  {
-    "key": "ctrl+w s",
-    "command": "workbench.action.focusSideBar"
-  },
-  {
-    "key": "alt+left",
-    "command": "workbench.action.navigateBack"
-  },
-  {
-    "key": "alt+right",
-    "command": "workbench.action.navigateForward"
-  },
-  {
-    "key": "ctrl+w up",
-    "command": "workbench.action.navigateUp"
-  },
-  {
-    "key": "ctrl+w down",
-    "command": "workbench.action.navigateDown"
-  },
-  {
-    "key": "ctrl+w left",
-    "command": "workbench.action.navigateLeft"
-  },
-  {
-    "key": "ctrl+w right",
-    "command": "workbench.action.navigateRight"
-  },
-  {
-    "when": "panelFocus",
     "key": "ctrl+tab",
-    "command": "workbench.action.nextPanelView"
+    "command": "workbench.action.nextPanelView",
+    "when": "panelFocus"
   },
   {
-    "when": "panelFocus",
     "key": "ctrl+shift+tab",
-    "command": "workbench.action.previousPanelView"
+    "command": "workbench.action.previousPanelView",
+    "when": "panelFocus"
   },
-  {
-    "when": "editorTextFocus",
-    "key": "ctrl+c",
-    "command": "vscode-neovim.send",
-    "args": "<c-c>"
-  },
-  {
-    "when": "editorTextFocus",
-    "key": "ctrl+x",
-    "command": "vscode-neovim.send",
-    "args": "<c-x>"
-  },
-  { "key": "ctrl+z", "command": "undo" },
-  { "key": "ctrl+y", "command": "redo" },
+  // asvetliakov.vscode-neovim
   {
     "key": "ctrl+f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   }
+  {
+    "key": "ctrl+c",
+    "command": "vscode-neovim.send",
+    "args": "<c-c>",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "vscode-neovim.send",
+    "args": "<c-x>",
+    "when": "editorTextFocus"
+  },
+  { "key": "ctrl+z", "command": "undo" },
+  { "key": "ctrl+y", "command": "redo" },
 ]
