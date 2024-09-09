@@ -109,6 +109,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
   "window.commandCenter": true,
+  "window.experimentalControlOverlay":true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
