@@ -21,27 +21,5 @@
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousPanelView",
     "when": "panelFocus"
-  },
-  // asvetliakov.vscode-neovim
-  {
-    "key": "ctrl+c",
-    "command": "vscode-neovim.send",
-    "args": "<c-c>",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+x",
-    "command": "vscode-neovim.send",
-    "args": "<c-x>",
-    "when": "editorTextFocus"
-  },
-  // {
-  //   "key": "ctrl+f",
-  //   "command": "actions.find",
-  //   "when": "editorFocus || editorIsOpen"
-  // },
-  // { "key": "ctrl+b", "command": "workbench.action.toggleSidebarVisibility" },
-  // { "key": "ctrl+j", "command": "workbench.action.togglePanel" },
-  // { "key": "ctrl+y", "command": "redo" },
-  // { "key": "ctrl+z", "command": "undo" }
+  }
 ]
