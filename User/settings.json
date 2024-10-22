@@ -16,6 +16,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": { "*.html.eex": "html" },
   "files.hotExit": "onExitAndWindowClose",
