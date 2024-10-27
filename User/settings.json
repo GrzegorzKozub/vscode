@@ -13,8 +13,11 @@
   "editor.minimap.enabled": false,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.renderWhitespace": "trailing",
+  "editor.rulers": [80, 120],
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
@@ -122,6 +125,7 @@
       "editorInlayHint.foreground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
       "editorInlayHint.typeForeground": "#7c6f64",
+      "editorRuler.foreground": "#3a3736",
       "editorStickyScrollHover.background": "#32302f",
       "terminalCursor.background": "#32302f",
       "terminalCursor.foreground": "#928374"
@@ -132,6 +136,7 @@
       "editorInlayHint.foreground": "#a89984",
       "editorInlayHint.parameterForeground": "#a89984",
       "editorInlayHint.typeForeground": "#a89984",
+      "editorRuler.foreground": "#eddeb5",
       "editorStickyScrollHover.background": "#f2e5bc",
       "terminalCursor.background": "#f2e5bc",
       "terminalCursor.foreground": "#928374"
