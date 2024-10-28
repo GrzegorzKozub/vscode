@@ -16,7 +16,6 @@
   "editor.rulers": [80],
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 80,
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   "extensions.autoUpdate": false,
