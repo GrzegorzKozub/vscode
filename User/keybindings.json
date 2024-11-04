@@ -1,25 +1,35 @@
 [
+  // explorer
   { "key": "ctrl+n", "command": "explorer.newFile" },
   { "key": "ctrl+shift+n", "command": "explorer.newFolder" },
+  // editor
   { "key": "ctrl+f4", "command": "workbench.action.closeActiveEditor" },
   { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
-  { "key": "ctrl+w e", "command": "workbench.action.focusActiveEditorGroup" },
-  { "key": "ctrl+w p", "command": "workbench.action.focusPanel" },
-  { "key": "ctrl+w s", "command": "workbench.action.focusSideBar" },
-  { "key": "alt+left", "command": "workbench.action.navigateBack" },
-  { "key": "alt+right", "command": "workbench.action.navigateForward" },
-  { "key": "ctrl+w up", "command": "workbench.action.navigateUp" },
-  { "key": "ctrl+w down", "command": "workbench.action.navigateDown" },
-  { "key": "ctrl+w left", "command": "workbench.action.navigateLeft" },
-  { "key": "ctrl+w right", "command": "workbench.action.navigateRight" },
+  // focus
   {
-    "key": "ctrl+tab",
-    "command": "workbench.action.nextPanelView",
-    "when": "panelFocus"
+    "key": "ctrl+escape",
+    "command": "workbench.action.focusActiveEditorGroup"
   },
   {
-    "key": "ctrl+shift+tab",
-    "command": "workbench.action.previousPanelView",
-    "when": "panelFocus"
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "inEditorsPicker"
+  },
+  { "key": "ctrl+shift+b", "command": "outline.focus" },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorFocus && outline.active"
+  },
+  // navigation
+  {
+    "key": "alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
   }
 ]
