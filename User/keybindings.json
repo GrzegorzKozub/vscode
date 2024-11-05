@@ -1,11 +1,16 @@
 [
   // explorer
+
   { "key": "ctrl+n", "command": "explorer.newFile" },
   { "key": "ctrl+shift+n", "command": "explorer.newFolder" },
+
   // editor
+
   { "key": "ctrl+f4", "command": "workbench.action.closeActiveEditor" },
   { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
+
   // focus
+
   {
     "key": "ctrl+escape",
     "command": "workbench.action.focusActiveEditorGroup"
@@ -21,7 +26,9 @@
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "!editorFocus && outline.active"
   },
+
   // navigation
+
   {
     "key": "alt+left",
     "command": "workbench.action.navigateBack",
