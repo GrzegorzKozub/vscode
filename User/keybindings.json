@@ -38,5 +38,18 @@
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
     "when": "canNavigateForward"
+  },
+
+  // copilot
+
+  {
+    "key": "ctrl+enter",
+    "command": "inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "workbench.action.terminal.chat.start",
+    "when": "terminalChatAgentRegistered && terminalFocusInAny && (terminalHasBeenCreated || terminalProcessSupported)"
   }
 ]

@@ -21,6 +21,7 @@
   "extensions.ignoreRecommendations": true,
   "files.hotExit": "onExitAndWindowClose",
   "git.openRepositoryInParentFolders": "always",
+  "github.gitProtocol": "ssh",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
