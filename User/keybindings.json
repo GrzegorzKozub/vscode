@@ -1,60 +1,28 @@
 [
-  // explorer
-
-  { "key": "ctrl+n", "command": "explorer.newFile" },
-  { "key": "ctrl+shift+n", "command": "explorer.newFolder" },
-
-  // editor
-
-  { "key": "ctrl+f4", "command": "workbench.action.closeActiveEditor" },
-  { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
-
-  // focus
-
   {
-    "key": "ctrl+escape",
-    "command": "workbench.action.focusActiveEditorGroup"
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus"
   },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus"
+  },
+  { "key": "ctrl+shift+s", "command": "workbench.action.files.saveAll" },
   {
     "key": "ctrl+shift+e",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "inEditorsPicker"
+    "when": "!editorFocus"
   },
-  { "key": "ctrl+shift+b", "command": "outline.focus" },
-  {
-    "key": "ctrl+shift+b",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "!editorFocus && outline.active"
-  },
-
-  // navigation
-
   {
     "key": "alt+left",
     "command": "workbench.action.navigateBack",
-    "when": "canNavigateBack"
+    "when": "editorFocus && canNavigateBack"
   },
   {
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
-    "when": "canNavigateForward"
-  },
-
-  // copilot
-
-  {
-    "key": "ctrl+enter",
-    "command": "inlineChat.start",
-    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
-  },
-  {
-    "key": "ctrl+enter",
-    "command": "workbench.action.terminal.chat.start",
-    "when": "terminalChatAgentRegistered && terminalFocusInAny && (terminalHasBeenCreated || terminalProcessSupported)"
-  },
-  {
-    "key": "ctrl+alt+l",
-    "command": "workbench.action.quickchat.toggle",
-    "when": "chatIsEnabled"
+    "when": "editorFocus && canNavigateForward"
   }
 ]
