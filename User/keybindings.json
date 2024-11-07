@@ -51,5 +51,10 @@
     "key": "ctrl+enter",
     "command": "workbench.action.terminal.chat.start",
     "when": "terminalChatAgentRegistered && terminalFocusInAny && (terminalHasBeenCreated || terminalProcessSupported)"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled"
   }
 ]
