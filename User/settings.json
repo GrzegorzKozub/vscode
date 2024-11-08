@@ -140,12 +140,11 @@
       "terminalCursor.foreground": "#928374"
     }
   },
-  "workbench.colorTheme": "Gruvbox Material Light",
+  "workbench.colorTheme": "Gruvbox Material Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
-  "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
