@@ -125,6 +125,7 @@
       "editorInlayHint.typeForeground": "#7c6f64",
       "editorRuler.foreground": "#3a3736",
       "editorStickyScrollHover.background": "#32302f",
+      "icon.foreground": "#a89984",
       "terminalCursor.background": "#32302f",
       "terminalCursor.foreground": "#928374"
     },
@@ -136,6 +137,7 @@
       "editorInlayHint.typeForeground": "#a89984",
       "editorRuler.foreground": "#eddeb5",
       "editorStickyScrollHover.background": "#f2e5bc",
+      "icon.foreground": "#7c6f64",
       "terminalCursor.background": "#f2e5bc",
       "terminalCursor.foreground": "#928374"
     }
