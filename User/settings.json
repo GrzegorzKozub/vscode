@@ -1,7 +1,9 @@
 {
   "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 14,
+  "cSpell.useCustomDecorations": false,
   "debug.toolBarLocation": "docked",
+  "editor.bracketPairColorization.enabled": false,
   "editor.codeLens": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorSurroundingLines": 4,
@@ -17,6 +19,24 @@
   "editor.rulers": [80],
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
+  "editor.tokenColorCustomizations": {
+    "[Gruvbox Material Dark]": {
+      "textMateRules": [
+        {
+          "scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
+          "settings": { "foreground": "#a89984" }
+        }
+      ]
+    },
+    "[Gruvbox Material Light]": {
+      "textMateRules": [
+        {
+          "scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
+          "settings": { "foreground": "#7c6f64" }
+        }
+      ]
+    }
+  },
   "editor.wordWrapColumn": 80,
   "extensions.autoUpdate": false,
   "extensions.ignoreRecommendations": true,
@@ -144,6 +164,7 @@
       "editorInlayHint.foreground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
       "editorInlayHint.typeForeground": "#7c6f64",
+      "editorLineNumber.foreground": "#665c54",
       "editorRuler.foreground": "#3a3736",
       "editorStickyScrollHover.background": "#32302f",
       "icon.foreground": "#a89984",
@@ -156,6 +177,7 @@
       "editorInlayHint.foreground": "#a89984",
       "editorInlayHint.parameterForeground": "#a89984",
       "editorInlayHint.typeForeground": "#a89984",
+      "editorLineNumber.foreground": "#bdae93",
       "editorRuler.foreground": "#eddeb5",
       "editorStickyScrollHover.background": "#f2e5bc",
       "icon.foreground": "#7c6f64",
