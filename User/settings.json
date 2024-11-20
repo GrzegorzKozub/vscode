@@ -23,8 +23,13 @@
     "[Gruvbox Material Dark]": {
       "textMateRules": [
         {
-          "scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
-          "settings": { "foreground": "#a89984" }
+          "scope": "meta.brace, meta.bracket, meta.delimiter, punctuation, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs, punctuation.definition.template-expression",
+          "settings": { "foreground": "#928374" }
+        },
+        {
+          // start aligning json, yaml, xml & toml with nvim
+          "scope": "support.type.property-name.json",
+          "settings": { "foreground": "#7daea3" }
         }
       ]
     },
@@ -32,7 +37,7 @@
       "textMateRules": [
         {
           "scope": "punctuation, meta.brace, meta.delimiter, meta.bracket",
-          "settings": { "foreground": "#7c6f64" }
+          "settings": { "foreground": "#928374" }
         }
       ]
     }
