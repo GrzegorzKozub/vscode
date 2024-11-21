@@ -21,10 +21,50 @@
   "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": {
     "[Gruvbox Material Dark]": {
+      // comments are grey0, punctuation is grey1
       "textMateRules": [
         {
+          "scope": "comment, punctuation.definition.comment",
+          "settings": { "foreground": "#7c6f64", "fontStyle": "italic" }
+        },
+        {
+          "name": "toml",
+          "scope": "punctuation.definition.table.toml, punctuation.definition.table.array.toml",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "yaml",
+          "scope": "punctuation.separator.key-value.mapping.yaml, punctuation.definition.anchor.yaml, punctuation.definition.block.sequence.item.yaml",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "md",
+          "scope": "fenced_code.block.language, punctuation.definition.markdown, punctuation.definition.raw.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "json",
+          "scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, punctuation.separator.dictionary.pair.json, punctuation.separator.array.json",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "ts",
+          "scope": "keyword.operator.type.annotation.ts, punctuation.accessor.ts, punctuation.separator.key-value.ts",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "python",
+          "scope": "punctuation.definition.decorator.python, punctuation.separator.period.python",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
+          "name": "js",
+          "scope": "punctuation.accessor.js, punctuation.separator.key-value.js, punctuation.separator.label.js, keyword.operator.accessor.js",
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
+        },
+        {
           "scope": "meta.brace, meta.bracket, meta.delimiter, punctuation, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs, punctuation.definition.template-expression",
-          "settings": { "foreground": "#928374" }
+          "settings": { "foreground": "#928374" } // grey2 instead of grey1
         },
         {
           // start aligning json, yaml, xml & toml with nvim
@@ -169,7 +209,7 @@
       "editorInlayHint.foreground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
       "editorInlayHint.typeForeground": "#7c6f64",
-      "editorLineNumber.foreground": "#665c54",
+      "editorLineNumber.foreground": "#5a524c",
       "editorRuler.foreground": "#3a3736",
       "editorStickyScrollHover.background": "#32302f",
       "icon.foreground": "#a89984",
