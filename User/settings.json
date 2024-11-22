@@ -24,7 +24,27 @@
       "textMateRules": [
         {
           "name": "punctuation",
-          "scope": "meta.brace, meta.tag.preprocessor.xml, meta.tag.xml, punctuation, punctuation.definition.block.sequence.item.yaml, punctuation.definition.interpolation.begin.cs, punctuation.definition.interpolation.end.cs, punctuation.separator.key-value.html, punctuation.definition.string.begin.html, punctuation.definition.string.begin.xml, punctuation.definition.string.begin.yaml, punctuation.definition.string.end.html, punctuation.definition.string.end.xml, punctuation.definition.string.end.yaml, punctuation.definition.table.toml, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.xml, punctuation.definition.template-expression",
+          "scope": [
+            "meta.brace",
+            "meta.tag.preprocessor.xml",
+            "meta.tag.xml",
+            "punctuation.definition.block.sequence.item.yaml",
+            "punctuation.definition.interpolation.begin.cs",
+            "punctuation.definition.interpolation.end.cs",
+            "punctuation.definition.string.begin.html",
+            "punctuation.definition.string.begin.xml",
+            "punctuation.definition.string.begin.yaml",
+            "punctuation.definition.string.end.html",
+            "punctuation.definition.string.end.xml",
+            "punctuation.definition.string.end.yaml",
+            "punctuation.definition.table.toml",
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html",
+            "punctuation.definition.tag.xml",
+            "punctuation.definition.template-expression",
+            "punctuation.separator.key-value.html",
+            "punctuation"
+          ],
           "settings": { "foreground": "#928374" }
         }
       ]
@@ -33,12 +53,12 @@
       "textMateRules": [
         {
           "name": "comments",
-          "scope": "comment, punctuation.definition.comment",
+          "scope": ["comment", "punctuation.definition.comment"],
           "settings": { "fontStyle": "italic", "foreground": "#7c6f64" }
         },
         {
           "name": "json & yaml names",
-          "scope": "entity.name.tag.yaml, support.type.property-name.json",
+          "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
           "settings": { "foreground": "#7daea3" }
         }
       ]
@@ -47,12 +67,12 @@
       "textMateRules": [
         {
           "name": "comments",
-          "scope": "comment, punctuation.definition.comment",
+          "scope": ["comment", "punctuation.definition.comment"],
           "settings": { "fontStyle": "italic", "foreground": "#a89984" }
         },
         {
           "name": "json & yaml names",
-          "scope": "entity.name.tag.yaml, support.type.property-name.json",
+          "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
           "settings": { "foreground": "#45707a" }
         }
       ]
