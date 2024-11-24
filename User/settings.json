@@ -25,12 +25,16 @@
         {
           "name": "punctuation",
           "scope": [
+            "fenced_code.block.language",
             "meta.brace",
             "meta.tag.preprocessor.xml",
             "meta.tag.xml",
             "punctuation.definition.block.sequence.item.yaml",
             "punctuation.definition.interpolation.begin.cs",
             "punctuation.definition.interpolation.end.cs",
+            "punctuation.definition.list.begin.markdown",
+            "punctuation.definition.markdown",
+            "punctuation.definition.raw.markdown",
             "punctuation.definition.string.begin.html",
             "punctuation.definition.string.begin.xml",
             "punctuation.definition.string.begin.yaml",
@@ -60,6 +64,16 @@
           "name": "json & yaml names",
           "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
           "settings": { "foreground": "#7daea3" }
+        },
+        {
+          "name": "markdown link text",
+          "scope": ["string.other.link.title.markdown"],
+          "settings": { "foreground": "#d3869b" }
+        },
+        {
+          "name": "markdown link url",
+          "scope": ["markup.underline.link.markdown"],
+          "settings": { "fontStyle": "", "foreground": "#7daea3" }
         }
       ]
     },
@@ -74,6 +88,16 @@
           "name": "json & yaml names",
           "scope": ["entity.name.tag.yaml", "support.type.property-name.json"],
           "settings": { "foreground": "#45707a" }
+        },
+        {
+          "name": "markdown link text",
+          "scope": ["string.other.link.title.markdown"],
+          "settings": { "foreground": "#945e80" }
+        },
+        {
+          "name": "markdown link url",
+          "scope": ["markup.underline.link.markdown"],
+          "settings": { "fontStyle": "", "foreground": "#45707a" }
         }
       ]
     }
