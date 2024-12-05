@@ -217,63 +217,80 @@
   "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "update.showReleaseNotes": false,
+  "window.autoDetectColorScheme": false,
   "window.commandCenter": true,
   "window.experimentalControlOverlay": true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
+
+  // https://code.visualstudio.com/api/extension-guides/color-theme
+  // https://code.visualstudio.com/api/references/theme-color
+  // ~/code/dotfiles/zed/zed/themes/gruvbox-material/colors.json
+  // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
+
+  // hover/active bg4, disabled bg6, element bg2, muted grey0, accent fg
+
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
-      // "foreground": "#ff0000",
+      // https://code.visualstudio.com/api/references/theme-color#base-colors
+      "focusBorder": "#5a524c", // bg6
+      "foreground": "#a89984", // grey2
+      "disabledForeground": "#5a524c", // bg6
+      "widget.border": "#5a524c", // bg6
+      "widget.shadow": "#18191980", // bg0
+      "selection.background": "#5a524c80", // bg6
+      "descriptionForeground": "#7c6f64", // grey0
+      "errorForeground": "#b85651", // dimRed
+      "icon.foreground": "#a89984", // grey2
+      "sash.hoverBorder": "#ff0000",
+      // https://code.visualstudio.com/api/references/theme-color#window-border
+      "window.activeBorder": "#5a524c", // bg6
+      "window.inactiveBorder": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#text-colors
+      "textBlockQuote.background": "#3c3836", // bg2
+      "textBlockQuote.border": "#5a524c", // bg6
+      "textCodeBlock.background": "#3c3836", // bg2
+      "textLink.activeForeground": "#7daea3", // blue
+      "textLink.foreground": "#68948a", // dimBlue
+      "textPreformat.foreground": "#c18f41", // dimYellow
+      "textPreformat.background": "#45403d", // bg4
+      "textSeparator.foreground": "#ff0000",
+      // https://code.visualstudio.com/api/references/theme-color#action-colors
 
-      // have to come up with shades based on 
-      // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
+      // dirty from here
 
-      "widget.shadow": "#18191980",
-      "selection.background": "#5a524c80",
+      //keep
+      "settings.rowHoverBackground": "#3c3836", // bg2
+
       "editor.selectionBackground": "#5a524c80",
-      "descriptionForeground": "#7c6f64",
-      "errorForeground": "#b85651",
-      "textLink.foreground": "#68948a",
-      "textLink.activeForeground": "#7daea3",
-      "textBlockQuote.border": "#5a524c",
-      "textPreformat.foreground": "#c18f41",
-      "textPreformat.background": "#45403d",
-
       "toolbar.hoverBackground": "#45403d",
 
       // "inputValidation.errorBorder": "#ea6962",
       // "inputValidation.errorBackground": "#c14a4a",
       // "inputValidation.errorForeground": "#c5b18d",
-
       // "list.deemphasizedForeground": "#00ff00",
       // "list.inactiveSelectionForeground": "#00ff",
-
-      // "focusBorder": "#ff0000",
-
-      "menu.foreground": "#a89984", // default
+      // "menu.foreground": "#a89984", // default
       // "button.foreground": "#ff0000",
       //  "sideBar.foreground": "#a89984",
       // "dropdown.foreground": "#ff0000",
 
       "menu.separatorBackground": "#32302f",
       "menu.selectionBackground": "#45403d",
-      "disabledForeground": "#5a524c",
       "scrollbarSlider.background": "#45403d80",
       "scrollbarSlider.hoverBackground": "#45403d",
       "scrollbarSlider.activeBackground": "#45403d",
 
       // "widget.border":"#ff0000",
-
       // "panelTitle.activeBorder": "#5a524c",
       // "tab.activeBorder": "#7c6f64",
       // "tab.unfocusedActiveBorder": "#5a524c",
-
       // "dropdown.foreground": "#ff0000",
       "menu.selectionForeground": "#c5b18d",
 
-      // stable down there
+      // previous customizations from here
 
       "editorCursor.background": "#32302f",
       "editorCursor.foreground": "#928374",
@@ -285,7 +302,6 @@
       "editorLineNumber.foreground": "#504945",
       "editorRuler.foreground": "#3a3736",
       "editorStickyScrollHover.background": "#32302f",
-      "icon.foreground": "#a89984",
       "terminal.ansiBlack": "#3c3836",
       "terminal.ansiBlue": "#45707a",
       "terminal.ansiBrightBlack": "#665c54",
@@ -344,6 +360,8 @@
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
+  "workbench.preferredLightColorTheme": "Gruvbox Material Light",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
