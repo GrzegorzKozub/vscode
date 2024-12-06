@@ -230,7 +230,7 @@
   // ~/code/dotfiles/zed/zed/themes/gruvbox-material/colors.json
   // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
 
-  // hover/active bg4, disabled bg6, element bg2, muted grey0, accent fg
+  // hover bg4, active bg6, disabled bg6, element bg2, muted grey0, accent fg
 
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
@@ -258,6 +258,36 @@
       "textPreformat.background": "#45403d", // bg4
       "textSeparator.foreground": "#ff0000",
       // https://code.visualstudio.com/api/references/theme-color#action-colors
+      "toolbar.hoverBackground": "#45403d", // bg4
+      // toolbar.hoverOutline
+      "toolbar.activeBackground": "#5a524c", // bg6
+      "editorActionList.background": "#32302f", // bg
+      "editorActionList.foreground": "#a89984", // grey2
+      "editorActionList.focusForeground": "#a89984", // grey2
+      "editorActionList.focusBackground": "#45403d", // bg4
+      // https://code.visualstudio.com/api/references/theme-color#button-control
+      "button.background": "#bd6f3e", // dimOrange
+      "button.foreground": "#32302f", // bg
+      // button.border
+      "button.separator": "#32302f", // bg
+      "button.hoverBackground": "#e78a4e", // orange
+      "button.secondaryForeground": "#7c6f64", // grey0
+      "button.secondaryBackground": "#45403d", // bg4
+      "button.secondaryHoverBackground": "#504945", // bg5
+      "checkbox.background": "#32302f", // bg
+      "checkbox.foreground": "#bd6f3e", // dimOrange
+      "checkbox.border": "#5a524c", // bg6
+      "checkbox.selectBackground": "#32302f", // bg
+      "checkbox.selectBorder": "#5a524c", // bg6
+      // "radio.activeForeground": Foreground color of active radio option.
+      // "radio.activeBackground": Background color of active radio option.
+      // "radio.activeBorder": Border color of the active radio option.
+      // "radio.inactiveForeground": Foreground color of inactive radio option.
+      // "radio.inactiveBackground": Background color of inactive radio option.
+      // "radio.inactiveBorder": Border color of the inactive radio option.
+      // "radio.inactiveHoverBackground": Background color of inactive active radio option when hovering.
+
+      // https://code.visualstudio.com/api/references/theme-color#dropdown-control
 
       // dirty from here
 
@@ -265,7 +295,6 @@
       "settings.rowHoverBackground": "#3c3836", // bg2
 
       "editor.selectionBackground": "#5a524c80",
-      "toolbar.hoverBackground": "#45403d",
 
       // "inputValidation.errorBorder": "#ea6962",
       // "inputValidation.errorBackground": "#c14a4a",
@@ -278,7 +307,9 @@
       // "dropdown.foreground": "#ff0000",
 
       "menu.separatorBackground": "#32302f",
-      "menu.selectionBackground": "#45403d",
+      "menu.selectionBackground": "#45403d", // bg4
+      // "menu.selectionBorder":"#ff0000",
+
       "scrollbarSlider.background": "#45403d80",
       "scrollbarSlider.hoverBackground": "#45403d",
       "scrollbarSlider.activeBackground": "#45403d",
@@ -355,7 +386,6 @@
       "terminalCursor.foreground": "#928374"
     }
   },
-  "workbench.colorTheme": "Gruvbox Material Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
@@ -376,5 +406,8 @@
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Gruvbox Material Dark"
 }
