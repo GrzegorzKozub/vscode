@@ -244,7 +244,7 @@
       "descriptionForeground": "#7c6f64", // grey0
       "errorForeground": "#b85651", // dimRed
       "icon.foreground": "#a89984", // grey2
-      "sash.hoverBorder": "#ff0000",
+      "sash.hoverBorder": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#window-border
       "window.activeBorder": "#5a524c", // bg6
       "window.inactiveBorder": "#32302f", // bg
@@ -279,16 +279,23 @@
       "checkbox.border": "#5a524c", // bg6
       "checkbox.selectBackground": "#32302f", // bg
       "checkbox.selectBorder": "#5a524c", // bg6
-      // "radio.activeForeground": Foreground color of active radio option.
-      // "radio.activeBackground": Background color of active radio option.
-      // "radio.activeBorder": Border color of the active radio option.
-      // "radio.inactiveForeground": Foreground color of inactive radio option.
-      // "radio.inactiveBackground": Background color of inactive radio option.
-      // "radio.inactiveBorder": Border color of the inactive radio option.
-      // "radio.inactiveHoverBackground": Background color of inactive active radio option when hovering.
-
+      "radio.activeForeground": "#ff0000",
+      "radio.activeBackground": "#ff0000",
+      "radio.activeBorder": "#ff0000",
+      "radio.inactiveForeground": "#ff0000",
+      "radio.inactiveBackground": "#ff0000",
+      "radio.inactiveBorder": "#ff0000",
+      "radio.inactiveHoverBackground": "#ff0000",
       // https://code.visualstudio.com/api/references/theme-color#dropdown-control
-
+      "dropdown.background": "#32302f", // bg
+      "dropdown.listBackground": "#32302f", // bg
+      "dropdown.border": "#5a524c", // bg6
+      "dropdown.foreground": "#a89984", // grey2
+      // https://code.visualstudio.com/api/references/theme-color#input-control
+      "input.background": "#32302f", // bg
+      "input.border": "#5a524c", // bg6
+      "input.foreground": "#a89984", // grey2
+      "input.placeholderForeground": "#7c6f64", // grey0
       // dirty from here
 
       //keep
