@@ -24,5 +24,15 @@
     "key": "alt+right",
     "command": "workbench.action.navigateForward",
     "when": "editorFocus && canNavigateForward"
+  },
+  {
+    "key": "/",
+    "command": "list.find",
+    "when": "listFocus && listSupportsFind"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "list.find",
+    "when": "listFocus && listSupportsFind"
   }
 ]

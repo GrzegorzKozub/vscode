@@ -230,15 +230,13 @@
   // ~/code/dotfiles/zed/zed/themes/gruvbox-material/colors.json
   // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
 
-  // hover bg4, active bg6, disabled bg6, element bg2, muted grey0, accent fg
-
   "workbench.colorCustomizations": {
     "[Gruvbox Material Dark]": {
       // https://code.visualstudio.com/api/references/theme-color#base-colors
       "focusBorder": "#5a524c", // bg6
       "foreground": "#a89984", // grey2
       "disabledForeground": "#5a524c", // bg6
-      "widget.border": "#5a524c", // bg6
+      "widget.border": "#45403d", // bg4
       "widget.shadow": "#18191980", // bg0
       "selection.background": "#5a524c80", // bg6
       "descriptionForeground": "#7c6f64", // grey0
@@ -246,11 +244,11 @@
       "icon.foreground": "#a89984", // grey2
       "sash.hoverBorder": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#window-border
-      "window.activeBorder": "#5a524c", // bg6
+      "window.activeBorder": "#45403d", // bg4
       "window.inactiveBorder": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#text-colors
       "textBlockQuote.background": "#3c3836", // bg2
-      "textBlockQuote.border": "#5a524c", // bg6
+      "textBlockQuote.border": "#45403d", // bg4
       "textCodeBlock.background": "#3c3836", // bg2
       "textLink.activeForeground": "#7daea3", // blue
       "textLink.foreground": "#68948a", // dimBlue
@@ -276,9 +274,9 @@
       "button.secondaryHoverBackground": "#504945", // bg5
       "checkbox.background": "#32302f", // bg
       "checkbox.foreground": "#bd6f3e", // dimOrange
-      "checkbox.border": "#5a524c", // bg6
+      "checkbox.border": "#45403d", // bg4
       "checkbox.selectBackground": "#32302f", // bg
-      "checkbox.selectBorder": "#5a524c", // bg6
+      "checkbox.selectBorder": "#45403d", // bg4
       "radio.activeForeground": "#ff0000",
       "radio.activeBackground": "#ff0000",
       "radio.activeBorder": "#ff0000",
@@ -289,44 +287,88 @@
       // https://code.visualstudio.com/api/references/theme-color#dropdown-control
       "dropdown.background": "#32302f", // bg
       "dropdown.listBackground": "#32302f", // bg
-      "dropdown.border": "#5a524c", // bg6
+      "dropdown.border": "#45403d", // bg4
       "dropdown.foreground": "#a89984", // grey2
       // https://code.visualstudio.com/api/references/theme-color#input-control
       "input.background": "#32302f", // bg
-      "input.border": "#5a524c", // bg6
+      "input.border": "#45403d", // bg4
       "input.foreground": "#a89984", // grey2
-      "input.placeholderForeground": "#7c6f64", // grey0
-      // dirty from here
+      "input.placeholderForeground": "#5a524c", // bg6
+      "inputOption.activeBackground": "#5a524c", // bg6
+      "inputOption.activeBorder": "#32302f", // bg
+      "inputOption.activeForeground": "#a89984", // grey2
+      "inputOption.hoverBackground": "#45403d", // bg4
+      "inputValidation.errorBackground": "#b85651", // dimRed
+      "inputValidation.errorForeground": "#32302f", // bg
+      "inputValidation.errorBorder": "#b85651", // dimRed
+      "inputValidation.infoBackground": "#68948a", // dimBlue
+      "inputValidation.infoForeground": "#32302f", // bg
+      "inputValidation.infoBorder": "#68948a", // dimBlue
+      "inputValidation.warningBackground": "#c18f41", // dimYellow
+      "inputValidation.warningForeground": "#32302f", // bg
+      "inputValidation.warningBorder": "#c18f41", // dimYellow
+      // https://code.visualstudio.com/api/references/theme-color#scrollbar-control
+      "scrollbar.shadow": "#18191980", // bg0
+      "scrollbarSlider.activeBackground": "#5a524c", // bg6
+      "scrollbarSlider.background": "#45403d80", // bg4
+      "scrollbarSlider.hoverBackground": "#5a524c80", // bg6
+      // https://code.visualstudio.com/api/references/theme-color#badge
+      "badge.foreground": "#32302f", // bg
+      "badge.background": "#a89984", // grey2
+      // https://code.visualstudio.com/api/references/theme-color#progress-bar
+      "progressBar.background": "#bd6f3e", // dimOrange
+      // https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+      "list.activeSelectionBackground": "#45403d", // bg4
+      "list.activeSelectionForeground": "#ddc7a1", // fg0
+      "list.activeSelectionIconForeground": "#ddc7a1", // grey2
+      "list.dropBackground": "#242424", // bg1
+      "list.focusBackground": "#45403d", // bg4
+      "list.focusForeground": "#ddc7a1", // fg0
+      "list.focusHighlightForeground": "#e78a4e", // orange
+      "list.focusOutline": "#45403d", // bg4
+      "list.focusAndSelectionOutline": "#45403d", // bg4
+      "list.highlightForeground": "#bd6f3e", // dimOrange
+      "list.hoverBackground": "#45403d", // bg4
+      "list.hoverForeground": "#ddc7a1", // fg0
+      "list.inactiveSelectionBackground": "#3c3836", // bg2
+      "list.inactiveSelectionForeground": "#a89984", // grey2
+      "list.inactiveSelectionIconForeground": "#a89984", // grey2
+      "list.inactiveFocusBackground": "#3c3836", // bg2
+      "list.inactiveFocusOutline": "#3c3836", // bg2
+      "list.invalidItemForeground": "#ff0000",
+      "list.errorForeground": "#b85651", // dimRed
+      "list.warningForeground": "#c18f41", // dimYellow
+      "listFilterWidget.background": "#32302f", // bg
+      "listFilterWidget.outline": "#ff0000",
+      "listFilterWidget.noMatchesOutline": "#ff0000",
+      "listFilterWidget.shadow": "#18191980", // bg0
+      "list.filterMatchBackground": "#bd6f3e", // dimOrange
+      // list.filterMatchBorder
+      "list.deemphasizedForeground": "#ff0000",
+      "list.dropBetweenBackground": "#ff0000",
+      "tree.indentGuidesStroke": "#45403d", // bg4
+      "tree.inactiveIndentGuidesStroke": "#3c3836", // bg2
+      "tree.tableColumnsBorder": "#ff0000",
+      "tree.tableOddRowsBackground": "#ff0000",
+      // https://code.visualstudio.com/api/references/theme-color#activity-bar
 
       //keep
       "settings.rowHoverBackground": "#3c3836", // bg2
+      "menu.selectionBackground": "#45403d", // bg4
+      "menu.foreground": "#a89984", // grey2
+      "menu.selectionForeground": "#ddc7a1", // fg0
 
+      // dirty
+      "menu.separatorBackground": "#32302f",
       "editor.selectionBackground": "#5a524c80",
 
-      // "inputValidation.errorBorder": "#ea6962",
-      // "inputValidation.errorBackground": "#c14a4a",
-      // "inputValidation.errorForeground": "#c5b18d",
-      // "list.deemphasizedForeground": "#00ff00",
-      // "list.inactiveSelectionForeground": "#00ff",
-      // "menu.foreground": "#a89984", // default
-      // "button.foreground": "#ff0000",
       //  "sideBar.foreground": "#a89984",
       // "dropdown.foreground": "#ff0000",
-
-      "menu.separatorBackground": "#32302f",
-      "menu.selectionBackground": "#45403d", // bg4
-      // "menu.selectionBorder":"#ff0000",
-
-      "scrollbarSlider.background": "#45403d80",
-      "scrollbarSlider.hoverBackground": "#45403d",
-      "scrollbarSlider.activeBackground": "#45403d",
-
+      //  "menu.selectionBorder":"#ff0000",
       // "widget.border":"#ff0000",
       // "panelTitle.activeBorder": "#5a524c",
       // "tab.activeBorder": "#7c6f64",
       // "tab.unfocusedActiveBorder": "#5a524c",
-      // "dropdown.foreground": "#ff0000",
-      "menu.selectionForeground": "#c5b18d",
 
       // previous customizations from here
 
@@ -393,6 +435,7 @@
       "terminalCursor.foreground": "#928374"
     }
   },
+  "workbench.colorTheme": "Gruvbox Material Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
@@ -413,8 +456,5 @@
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Gruvbox Material Dark"
+  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }
