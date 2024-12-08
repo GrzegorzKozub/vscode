@@ -5,6 +5,7 @@
   "debug.toolBarLocation": "docked",
   "editor.bracketPairColorization.enabled": false,
   "editor.codeLens": false,
+  "editor.colorDecoratorsActivatedOn": "click",
   "editor.cursorBlinking": "solid",
   "editor.cursorSurroundingLines": 4,
   "editor.experimentalEditContextEnabled": true,
@@ -355,7 +356,7 @@
       "activityBarBadge.background": "#a89984", // grey2
 
       "activityWarningBadge.background": "#c18f41", // dimYellow
-      
+
       // continue...
 
       // https://code.visualstudio.com/api/references/theme-color#panel-colors
