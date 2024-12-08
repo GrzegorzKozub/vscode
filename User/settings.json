@@ -231,7 +231,7 @@
   // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
 
   "workbench.colorCustomizations": {
-    "[Gruvbox Material Dark]": {
+    "[*]": {
       // https://code.visualstudio.com/api/references/theme-color#base-colors
       "focusBorder": "#5a524c", // bg6
       "foreground": "#a89984", // grey2
@@ -348,19 +348,67 @@
       "list.dropBetweenBackground": "#ff0000",
       "tree.indentGuidesStroke": "#45403d", // bg4
       "tree.inactiveIndentGuidesStroke": "#3c3836", // bg2
-      "tree.tableColumnsBorder": "#ff0000",
-      "tree.tableOddRowsBackground": "#ff0000",
+      "tree.tableColumnsBorder": "#32302f", // bg
+      "tree.tableOddRowsBackground": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#activity-bar
+
+      "activityBarBadge.background": "#a89984", // grey2
+
+      "activityWarningBadge.background": "#c18f41", // dimYellow
+      
+      // continue...
+
+      // https://code.visualstudio.com/api/references/theme-color#panel-colors
+      "panel.background": "#32302f", // bg
+      "panel.border": "#32302f", // bg
+      "panel.dropBorder": "#242424", // bg1
+      "panelTitle.activeBorder": "#bd6f3e", // dimOrange
+      "panelTitle.activeForeground": "#a89984", // grey2
+      "panelTitle.inactiveForeground": "#7c6f64", // grey0
+      "panelInput.border": "#45403d", // bg4
+      "panelSection.border": "#32302f", // bg
+      "panelSection.dropBackground": "#242424", // bg1
+      "panelSectionHeader.background": "#32302f", // bg
+      "panelSectionHeader.foreground": "#7c6f64", // grey0
+      "panelStickyScroll.background": "#32302f", // bg
+      "panelStickyScroll.border": "#32302f", // bg
+      "panelStickyScroll.shadow": "#18191980", // bg0
+      "panelSectionHeader.border": "#ff0000",
+      "outputView.background": "#32302f", // bg
+      "outputViewStickyScroll.background": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+      "titleBar.activeBackground": "#32302f", // bg
+      "titleBar.activeForeground": "#a89984", // grey2
+      "titleBar.inactiveBackground": "#32302f", // bg
+      "titleBar.inactiveForeground": "#a89984", // grey2
+      "titleBar.border": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#menu-bar-colors
+      "menubar.selectionForeground": "#ddc7a1", // fg0
+      "menubar.selectionBackground": "#45403d", // bg4
+      "menubar.selectionBorder": "#45403d", // bg4
+      "menu.foreground": "#a89984", // grey2
+      "menu.background": "#32302f", // bg
+      "menu.selectionForeground": "#ddc7a1", // fg0
+      "menu.selectionBackground": "#45403d", // bg4
+      "menu.selectionBorder": "#45403d", // bg4
+      "menu.separatorBackground": "#3c3836", // bg2
+      "menu.border": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#command-center-colors
+      "commandCenter.foreground": "#a89984", // grey2
+      "commandCenter.activeForeground": "#ddc7a1", // fg0
+      "commandCenter.background": "#32302f", // bg
+      "commandCenter.activeBackground": "#45403d", // bg4
+      "commandCenter.border": "#32302f", // bg
+      "commandCenter.inactiveForeground": "#a89984", // grey2
+      "commandCenter.inactiveBorder": "#32302f", // bg
+      "commandCenter.activeBorder": "#45403d", // bg4
+      "commandCenter.debuggingBackground": "#ff000080", // bg4
 
       //keep
       "settings.rowHoverBackground": "#3c3836", // bg2
-      "menu.selectionBackground": "#45403d", // bg4
-      "menu.foreground": "#a89984", // grey2
-      "menu.selectionForeground": "#ddc7a1", // fg0
 
       // dirty
-      "menu.separatorBackground": "#32302f",
-      "editor.selectionBackground": "#5a524c80",
+      //"editor.selectionBackground": "#5a524c80",
 
       //  "sideBar.foreground": "#a89984",
       // "dropdown.foreground": "#ff0000",
@@ -435,7 +483,6 @@
       "terminalCursor.foreground": "#928374"
     }
   },
-  "workbench.colorTheme": "Gruvbox Material Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
@@ -456,5 +503,8 @@
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[python]": { "editor.defaultFormatter": "ms-python.black-formatter" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Gruvbox Material Dark"
 }
