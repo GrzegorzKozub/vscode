@@ -224,7 +224,6 @@
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-
   // https://code.visualstudio.com/api/extension-guides/color-theme
   // https://code.visualstudio.com/api/references/theme-color
   // ~/code/dotfiles/zed/zed/themes/gruvbox-material/colors.json
@@ -309,7 +308,7 @@
       "inputValidation.warningBorder": "#c18f41", // dimYellow
       // https://code.visualstudio.com/api/references/theme-color#scrollbar-control
       "scrollbar.shadow": "#18191980", // bg0
-      "scrollbarSlider.activeBackground": "#5a524c", // bg6
+      "scrollbarSlider.activeBackground": "#5a524c80", // bg6
       "scrollbarSlider.background": "#45403d80", // bg4
       "scrollbarSlider.hoverBackground": "#5a524c80", // bg6
       // https://code.visualstudio.com/api/references/theme-color#badge
@@ -321,7 +320,7 @@
       "list.activeSelectionBackground": "#45403d", // bg4
       "list.activeSelectionForeground": "#ddc7a1", // fg0
       "list.activeSelectionIconForeground": "#ddc7a1", // grey2
-      "list.dropBackground": "#242424", // bg1
+      "list.dropBackground": "#242424c0", // bg1
       "list.focusBackground": "#45403d", // bg4
       "list.focusForeground": "#ddc7a1", // fg0
       "list.focusHighlightForeground": "#e78a4e", // orange
@@ -342,7 +341,7 @@
       "listFilterWidget.outline": "#ff0000",
       "listFilterWidget.noMatchesOutline": "#ff0000",
       "listFilterWidget.shadow": "#18191980", // bg0
-      "list.filterMatchBackground": "#bd6f3e", // dimOrange
+      "list.filterMatchBackground": "#bd6f3e80", // dimOrange
       // list.filterMatchBorder
       "list.deemphasizedForeground": "#ff0000",
       "list.dropBetweenBackground": "#ff0000",
@@ -376,6 +375,83 @@
       "profileBadge.foreground": "#32302f", // bg
       "profiles.sashBorder": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#side-bar
+      "sideBar.background": "#32302f", // bg
+      "sideBar.foreground": "#a89984", // grey2
+      "sideBar.border": "#32302f", // bg
+      "sideBar.dropBackground": "#242424c0", // bg1
+      "sideBarTitle.foreground": "#a89984", // grey2
+      "sideBarSectionHeader.background": "#32302f", // bg
+      "sideBarSectionHeader.foreground": "#a89984", // grey2
+      "sideBarSectionHeader.border": "#32302f", // bg
+      "sideBarActivityBarTop.border": "#32302f", // bg
+      "sideBarTitle.background": "#32302f", // bg
+      "sideBarStickyScroll.background": "#32302f", // bg
+      "sideBarStickyScroll.border": "#32302f", // bg
+      "sideBarStickyScroll.shadow": "#18191980", // bg0
+      // https://code.visualstudio.com/api/references/theme-color#minimap
+      "minimap.findMatchHighlight": "#bd6f3e80", // dimOrange
+      "minimap.selectionHighlight": "#5a524c80", // bg6
+      "minimap.errorHighlight": "#b85651", // dimRed
+      "minimap.warningHighlight": "#c18f41", // dimYellow
+      "minimap.background": "#32302f", // bg
+      "minimap.selectionOccurrenceHighlight": "#5a524c80", // bg6
+      // minimap.foregroundOpacity
+      "minimap.infoHighlight": "#45707a", // dimBlue
+      "minimapSlider.background": "#45403d80", // bg4
+      "minimapSlider.hoverBackground": "#5a524c80", // bg6
+      "minimapSlider.activeBackground": "#5a524c80", // bg6
+      "minimapGutter.addedBackground": "#8f9a52", // dimGreen
+      "minimapGutter.modifiedBackground": "#68948a", // dimBlue
+      "minimapGutter.deletedBackground": "#b85651", // dimRed
+      // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+      "editorGroup.border": "#32302f", // bg
+      "editorGroup.dropBackground": "#242424c0", // bg1
+      "editorGroupHeader.noTabsBackground": "#32302f", // bg
+      "editorGroupHeader.tabsBackground": "#32302f", // bg
+      "editorGroupHeader.tabsBorder": "#32302f", // bg
+      "editorGroupHeader.border": "#32302f", // bg
+      "editorGroup.emptyBackground": "#32302f", // bg
+      "editorGroup.focusedEmptyBorder": "#32302f", // bg
+      "editorGroup.dropIntoPromptForeground": "#a89984", // grey2
+      "editorGroup.dropIntoPromptBackground": "#32302f", // bg
+      "editorGroup.dropIntoPromptBorder": "#a89984", // grey2
+      "tab.activeBackground": "#32302f", // bg
+      "tab.unfocusedActiveBackground": "#32302f", // bg
+      "tab.activeForeground": "#a89984", // grey2
+      "tab.border": "#32302f", // bg
+      "tab.activeBorder": "#bd6f3e", // dimOrange
+      "tab.selectedBorderTop": "#32302f", // bg
+      "tab.selectedBackground": "#32302f", // bg
+      "tab.selectedForeground": "#7c6f64", // grey0
+      "tab.dragAndDropBorder": "#242424", // bg1
+      "tab.unfocusedActiveBorder": "#7c6f64", // grey0
+      "tab.activeBorderTop": "#32302f", // bg
+      "tab.unfocusedActiveBorderTop": "#32302f", // bg
+      "tab.lastPinnedBorder": "#32302f", // bg
+      "tab.inactiveBackground": "#32302f", // bg
+      "tab.unfocusedInactiveBackground": "#32302f", // bg
+      "tab.inactiveForeground": "#7c6f64", // grey0
+      "tab.unfocusedActiveForeground": "#a89984", // grey2
+      "tab.unfocusedInactiveForeground": "#7c6f64", // grey0
+      "tab.hoverBackground": "#32302f", // bg
+      "tab.unfocusedHoverBackground": "#32302f", // bg
+      "tab.hoverForeground": "#ddc7a1", // fg0
+      "tab.unfocusedHoverForeground": "#ddc7a1", // fg0
+      // tab.hoverBorder
+      // tab.unfocusedHoverBorder
+      "tab.activeModifiedBorder": "#32302f", // bg
+      "tab.inactiveModifiedBorder": "#32302f", // bg
+      "tab.unfocusedActiveModifiedBorder": "#7c6f64", // grey0
+      "tab.unfocusedInactiveModifiedBorder": "#32302f", // bg
+      "editorPane.background": "#32302f", // bg
+      "sideBySideEditor.horizontalBorder": "#32302f", // bg
+      "sideBySideEditor.verticalBorder": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#editor-colors
+
+      "editorStickyScroll.background": "#32302f", // bg
+      "editorStickyScroll.border": "#32302f", // bg
+      "editorStickyScroll.shadow": "#18191980", // bg0
+      "editorStickyScrollHover.background": "#32302f", // bg
 
       // continue
 
@@ -397,6 +473,10 @@
       "panelSectionHeader.border": "#ff0000",
       "outputView.background": "#32302f", // bg
       "outputViewStickyScroll.background": "#32302f", // bg
+      // https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+
+      // continue
+
       // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
       "titleBar.activeBackground": "#32302f", // bg
       "titleBar.activeForeground": "#a89984", // grey2
@@ -424,6 +504,9 @@
       "commandCenter.inactiveBorder": "#32302f", // bg
       "commandCenter.activeBorder": "#45403d", // bg4
       "commandCenter.debuggingBackground": "#ff000080", // bg4
+      // https://code.visualstudio.com/api/references/theme-color#notification-colors
+
+      // continue
 
       //keep
       "settings.rowHoverBackground": "#3c3836", // bg2
@@ -450,7 +533,7 @@
       "editorLineNumber.dimmedForeground": "#403c3a",
       "editorLineNumber.foreground": "#504945",
       "editorRuler.foreground": "#3a3736",
-      "editorStickyScrollHover.background": "#32302f",
+
       "terminal.ansiBlack": "#3c3836",
       "terminal.ansiBlue": "#45707a",
       "terminal.ansiBrightBlack": "#665c54",
@@ -481,7 +564,7 @@
       "editorLineNumber.dimmedForeground": "#e6d5ae",
       "editorLineNumber.foreground": "#d5c4a1",
       "editorRuler.foreground": "#eddeb5",
-      "editorStickyScrollHover.background": "#f2e5bc",
+      "editorStickyScrollHover.background": "#f2e5bc", // bg
       "icon.foreground": "#7c6f64",
       "terminal.ansiBlack": "#ebdbb2",
       "terminal.ansiBlue": "#45707a",
@@ -505,7 +588,6 @@
     }
   },
   "workbench.editor.empty.hint": "hidden",
-  "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Gruvbox Material Dark",
