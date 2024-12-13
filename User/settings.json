@@ -16,7 +16,7 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.minimap.enabled": false,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.renderWhitespace": "trailing",
+  "editor.renderWhitespace": "none",
   "editor.rulers": [80],
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
@@ -225,11 +225,6 @@
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-  // https://code.visualstudio.com/api/extension-guides/color-theme
-  // https://code.visualstudio.com/api/references/theme-color
-  // ~/code/dotfiles/zed/zed/themes/gruvbox-material/colors.json
-  // ~/.vscode/extensions/sainnhe.gruvbox-material-6.5.2/themes/gruvbox-material-dark.json
-
   "workbench.colorCustomizations": {
     "[*]": {
       // https://code.visualstudio.com/api/references/theme-color#base-colors
@@ -461,7 +456,7 @@
       "editorMultiCursor.secondary.background": "#32302f", // bg
       "editor.placeholder.foreground": "#ff0000",
       "editor.compositionBorder": "#ff0000",
-      // todo: how to agree selection with word highlight?
+      // todo: how to agree selections & highlights?
       "editor.selectionBackground": "#5a524c80", // bg6
       // editor.selectionForeground
       "editor.inactiveSelectionBackground": "#5a524c80", // bg6
@@ -485,10 +480,40 @@
       "searchEditor.findMatchBackground": "#bd6f3e80", // dimOrange
       // searchEditor.findMatchBorder
       "searchEditor.textInputBorder": "#45403d", // bg4
+      "editor.hoverHighlightBackground": "#5a524c80", // bg6
+      "editor.lineHighlightBackground": "#3c3836", // bg2
+      // editor.lineHighlightBorder
+      "editorWatermark.foreground": "#ff0000",
+      "editorUnicodeHighlight.border": "#b85651", // dimRed
+      // editorUnicodeHighlight.background
+      "editorLink.activeForeground": "#7daea3", // blue
+      "editor.rangeHighlightBackground": "#bd6f3e20", // dimOrange
+      // editor.rangeHighlightBorder
+      // todo: symbol highlights should probably stand out more
+      "editor.symbolHighlightBackground": "#5a524c80", // bg6
+      // editor.symbolHighlightBorder
+      "editorWhitespace.foreground": "#5a524c", // bg6
+      "editorIndentGuide.background1": "#3c3836", // bg2
+      // editorIndentGuide.background2
+      // editorIndentGuide.background3
+      // editorIndentGuide.background4
+      // editorIndentGuide.background5
+      // editorIndentGuide.background6
+      "editorIndentGuide.activeBackground1": "#45403d", // bg4
+      // editorIndentGuide.activeBackground2
+      // editorIndentGuide.activeBackground3
+      // editorIndentGuide.activeBackground4
+      // editorIndentGuide.activeBackground5
+      // editorIndentGuide.activeBackground6
+      // editorInlayHint.background
+      "editorInlayHint.foreground": "#504945", // bg5 (same as neovim)
+      "editorInlayHint.typeForeground": "#504945", // bg5 (same as neovim)
+      // editorInlayHint.typeBackground
+      // todo: come up with limited set of shades
+      "editorInlayHint.parameterForeground": "#504945", // bg5 (same as neovim)
+      // editorInlayHint.parameterBackground
 
       // continue
-
-      "editor.lineHighlightBackground": "#3c3836", // bg2
 
       "editorStickyScroll.background": "#32302f", // bg
       "editorStickyScroll.border": "#32302f", // bg
@@ -530,16 +555,16 @@
       "statusBar.noFolderForeground": "#a89984", // grey2
       "statusBar.noFolderBackground": "#32302f", // bg
       "statusBar.noFolderBorder": "#32302f", // bg
-      "statusBarItem.activeBackground": "#5a524c80", // bg6
+      "statusBarItem.activeBackground": "#5a524c", // bg6
       "statusBarItem.hoverForeground": "#ddc7a1", // fg0
-      "statusBarItem.hoverBackground": "#45403d80", // bg4
+      "statusBarItem.hoverBackground": "#45403d", // bg4
       "statusBarItem.prominentForeground": "#32302f", // bg
       "statusBarItem.prominentBackground": "#bd6f3e", // dimOrange
       "statusBarItem.prominentHoverForeground": "#32302f", // bg
       "statusBarItem.prominentHoverBackground": "#e78a4e", // orange
       "statusBarItem.remoteBackground": "#32302f", // bg
       "statusBarItem.remoteForeground": "#a89984", // grey2
-      "statusBarItem.remoteHoverBackground": "#45403d80", // bg4
+      "statusBarItem.remoteHoverBackground": "#45403d", // bg4
       "statusBarItem.remoteHoverForeground": "#ddc7a1", // fg0
       "statusBarItem.errorBackground": "#b85651", // dimRed
       "statusBarItem.errorForeground": "#32302f", // bg
@@ -549,7 +574,7 @@
       "statusBarItem.warningForeground": "#32302f", // bg
       "statusBarItem.warningHoverBackground": "#d8a657", // yellow
       "statusBarItem.warningHoverForeground": "#32302f", // bg
-      "statusBarItem.compactHoverBackground": "#45403d80", // bg4
+      "statusBarItem.compactHoverBackground": "#45403d", // bg4
       "statusBarItem.focusBorder": "#5a524c", // bg6
       "statusBar.focusBorder": "#5a524c", // bg6
       "statusBarItem.offlineBackground": "#ff0000",
@@ -620,10 +645,6 @@
       // "tab.unfocusedActiveBorder": "#5a524c",
 
       // previous customizations from here
-
-      "editorInlayHint.foreground": "#7c6f64",
-      "editorInlayHint.parameterForeground": "#7c6f64",
-      "editorInlayHint.typeForeground": "#7c6f64",
 
       "editorLineNumber.dimmedForeground": "#403c3a",
 
