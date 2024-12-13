@@ -448,6 +448,47 @@
       "sideBySideEditor.horizontalBorder": "#32302f", // bg
       "sideBySideEditor.verticalBorder": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#editor-colors
+      "editor.background": "#32302f", // bg
+      // todo: should hover and active font use fg instead of fg0?
+      "editor.foreground": "#d4be98", // fg
+      "editorLineNumber.foreground": "#504945", // bg5 (same as neovim)
+      "editorLineNumber.activeForeground": "#665c54", // bg7 (same as neovim)
+      "editorCursor.background": "#32302f", // bg
+      "editorCursor.foreground": "#a89984", // grey2
+      "editorMultiCursor.primary.foreground": "#a89984", // grey2
+      "editorMultiCursor.primary.background": "#32302f", // bg
+      "editorMultiCursor.secondary.foreground": "#7c6f64", // grey0
+      "editorMultiCursor.secondary.background": "#32302f", // bg
+      "editor.placeholder.foreground": "#ff0000",
+      "editor.compositionBorder": "#ff0000",
+      // todo: how to agree selection with word highlight?
+      "editor.selectionBackground": "#5a524c80", // bg6
+      // editor.selectionForeground
+      "editor.inactiveSelectionBackground": "#5a524c80", // bg6
+      "editor.selectionHighlightBackground": "#5a524c80", // bg6
+      // editor.selectionHighlightBorder
+      "editor.wordHighlightBackground": "#5a524c80", // bg6 (neovim has bg3)
+      // editor.wordHighlightBorder
+      "editor.wordHighlightStrongBackground": "#5a524c80", // bg6 (neovim has bg5)
+      // editor.wordHighlightStrongBorder
+      "editor.wordHighlightTextBackground": "#5a524c80", // bg6 (neovim has bg3)
+      // editor.wordHighlightTextBorder
+      "editor.findMatchBackground": "#bd6f3e", // dimOrange
+      // editor.findMatchForeground
+      // editor.findMatchHighlightForeground
+      "editor.findMatchHighlightBackground": "#bd6f3e80", // dimOrange
+      "editor.findRangeHighlightBackground": "#bd6f3e20", // dimOrange
+      // editor.findMatchBorder
+      // editor.findMatchHighlightBorder
+      // editor.findRangeHighlightBorder
+      "search.resultsInfoForeground": "#7c6f64", // grey0
+      "searchEditor.findMatchBackground": "#bd6f3e80", // dimOrange
+      // searchEditor.findMatchBorder
+      "searchEditor.textInputBorder": "#45403d", // bg4
+
+      // continue
+
+      "editor.lineHighlightBackground": "#3c3836", // bg2
 
       "editorStickyScroll.background": "#32302f", // bg
       "editorStickyScroll.border": "#32302f", // bg
@@ -565,7 +606,6 @@
       // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
       // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
       // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
-      // https://code.visualstudio.com/api/references/theme-color#extension-colors
 
       //keep
       "settings.rowHoverBackground": "#3c3836", // bg2
@@ -581,14 +621,12 @@
 
       // previous customizations from here
 
-      "editorCursor.background": "#32302f",
-      "editorCursor.foreground": "#928374",
       "editorInlayHint.foreground": "#7c6f64",
       "editorInlayHint.parameterForeground": "#7c6f64",
       "editorInlayHint.typeForeground": "#7c6f64",
-      "editorLineNumber.activeForeground": "#665c54",
+
       "editorLineNumber.dimmedForeground": "#403c3a",
-      "editorLineNumber.foreground": "#504945",
+
       "editorRuler.foreground": "#3a3736",
 
       "terminal.ansiBlack": "#3c3836",
@@ -665,5 +703,6 @@
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorTheme": "Gruvbox Material Dark"
 }
