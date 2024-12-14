@@ -6,12 +6,15 @@
   "debug.toolBarLocation": "docked",
   "editor.bracketPairColorization.enabled": false,
   "editor.codeLens": false,
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "editor.codeLensFontSize": 14,
   "editor.cursorBlinking": "solid",
   "editor.cursorSurroundingLines": 4,
   "editor.experimentalEditContextEnabled": true,
   "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": "'calt', 'ss01'",
   "editor.fontSize": 16,
+  "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.minimap.enabled": false,
@@ -237,7 +240,7 @@
       "descriptionForeground": "#7c6f64", // grey0
       "errorForeground": "#b85651", // dimRed
       "icon.foreground": "#a89984", // grey2
-      "sash.hoverBorder": "#45403d", // bg4
+      "sash.hoverBorder": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#window-border
       "window.activeBorder": "#45403d", // bg4
       "window.inactiveBorder": "#32302f", // bg
@@ -250,6 +253,7 @@
       "textPreformat.foreground": "#c18f41", // dimYellow
       "textPreformat.background": "#45403d", // bg4
       "textSeparator.foreground": "#ff0000",
+
       // https://code.visualstudio.com/api/references/theme-color#action-colors
       "toolbar.hoverBackground": "#45403d", // bg4
       // toolbar.hoverOutline
@@ -454,7 +458,7 @@
       "editorMultiCursor.primary.background": "#32302f", // bg
       "editorMultiCursor.secondary.foreground": "#7c6f64", // grey0
       "editorMultiCursor.secondary.background": "#32302f", // bg
-      "editor.placeholder.foreground": "#ff0000",
+      "editor.placeholder.foreground": "#5a524c", // bg6
       "editor.compositionBorder": "#ff0000",
       // todo: how to agree selections & highlights?
       "editor.selectionBackground": "#5a524c80", // bg6
@@ -512,19 +516,119 @@
       // todo: come up with limited set of shades
       "editorInlayHint.parameterForeground": "#504945", // bg5 (same as neovim)
       // editorInlayHint.parameterBackground
-
-      // continue
-
-      "editorStickyScroll.background": "#32302f", // bg
-      "editorStickyScroll.border": "#32302f", // bg
-      "editorStickyScroll.shadow": "#18191980", // bg0
-      "editorStickyScrollHover.background": "#32302f", // bg
-
+      "editorRuler.foreground": "#3c3836", // bg2
+      "editor.linkedEditingBackground": "#ff0000",
+      "editorCodeLens.foreground": "#504945", // bg5 (same as neovim)
+      "editorLightBulb.foreground": "#d8a657", // yellow
+      "editorLightBulbAutoFix.foreground": "#d8a657", // yellow
+      "editorLightBulbAi.foreground": "#d8a657", // yellow
+      "editorBracketMatch.background": "#5a524c", // bg6
+      "editorBracketMatch.border": "#5a524c", // bg6
+      "editorBracketHighlight.foreground1": "#8f9a52", // dimGreen
+      "editorBracketHighlight.foreground2": "#c18f41", // dimYellow
+      "editorBracketHighlight.foreground3": "#68948a", // dimBlue
+      "editorBracketHighlight.foreground4": "#ab6c7d", // dimPurple
+      "editorBracketHighlight.foreground5": "#72966c", // dimAqua
+      "editorBracketHighlight.foreground6": "#bd6f3e", // dimOrange
+      "editorBracketHighlight.unexpectedBracket.foreground": "#ea6962", // red
+      "editorBracketPairGuide.activeBackground1": "#8f9a5280", // dimGreen
+      "editorBracketPairGuide.activeBackground2": "#c18f4180", // dimYellow
+      "editorBracketPairGuide.activeBackground3": "#68948a80", // dimBlue
+      "editorBracketPairGuide.activeBackground4": "#ab6c7d80", // dimPurple
+      "editorBracketPairGuide.activeBackground5": "#72966c80", // dimAqua
+      "editorBracketPairGuide.activeBackground6": "#bd6f3e80", // dimOrange
+      "editorBracketPairGuide.background1": "#8f9a5240", // dimGreen
+      "editorBracketPairGuide.background2": "#c18f4140", // dimYellow
+      "editorBracketPairGuide.background3": "#68948a40", // dimBlue
+      "editorBracketPairGuide.background4": "#ab6c7d40", // dimPurple
+      "editorBracketPairGuide.background5": "#72966c40", // dimAqua
+      "editorBracketPairGuide.background6": "#bd6f3e40", // dimOrange
+      "editor.foldBackground": "#3c383680", // bg2
+      "editor.foldPlaceholderForeground": "#665c54", // bg3 (same as neovim)
+      // editorOverviewRuler.background
+      // editorOverviewRuler.border
+      "editorOverviewRuler.findMatchForeground": "#bd6f3e80", // dimOrange
+      "editorOverviewRuler.rangeHighlightForeground": "#ff0000fe",
+      "editorOverviewRuler.selectionHighlightForeground": "#ff0000fe",
+      "editorOverviewRuler.wordHighlightForeground": "#5a524c80", // bg6 (same as neovim)
+      "editorOverviewRuler.wordHighlightStrongForeground": "#5a524c80", // bg6 (same as neovim)
+      "editorOverviewRuler.wordHighlightTextForeground": "#5a524c80", // bg6 (same as neovim)
+      "editorOverviewRuler.modifiedForeground": "#68948a80", // dimBlue
+      "editorOverviewRuler.addedForeground": "#8f9a5280", // dimGreen
+      "editorOverviewRuler.deletedForeground": "#b8565180", // dimRed
+      "editorOverviewRuler.errorForeground": "#b8565180", // dimRed
+      "editorOverviewRuler.warningForeground": "#c18f4180", // dimYellow
+      "editorOverviewRuler.infoForeground": "#45707a80", // dimBlue
+      "editorOverviewRuler.bracketMatchForeground": "#5a524cc0", // bg6
+      "editorOverviewRuler.inlineChatInserted": "#ff0000",
+      "editorOverviewRuler.inlineChatRemoved": "#ff0000",
+      "editorError.foreground": "#b85651", // dimRed
+      // editorError.border
+      // editorError.background
+      "editorWarning.foreground": "#c18f41", // dimYellow
+      // editorWarning.border
+      // editorWarning.background
+      "editorInfo.foreground": "#68948a", // dimBlue
+      // editorInfo.border
+      // editorInfo.background
+      "editorHint.foreground": "#8f9a52", // dimGreen
+      // editorHint.border
+      "problemsErrorIcon.foreground": "#b85651", // dimRed
+      "problemsWarningIcon.foreground": "#c18f41", // dimYellow
+      "problemsInfoIcon.foreground": "#68948a", // dimBlue
+      // editorUnnecessaryCode.border
+      "editorUnnecessaryCode.opacity": "#00000080",
+      "editorGutter.background": "#32302f", // bg
+      "editorGutter.modifiedBackground": "#68948a", // dimBlue
+      "editorGutter.addedBackground": "#8f9a52", // dimGreen
+      "editorGutter.deletedBackground": "#b85651", // dimRed
+      "editorGutter.commentRangeForeground": "#3c3836", // bg2
+      "editorGutter.commentGlyphForeground": "#ff0000",
+      "editorGutter.commentUnresolvedGlyphForeground": "#ff0000",
+      "editorGutter.foldingControlForeground": "#665c54", // bg3 (same as neovim)
+      "editorCommentsWidget.resolvedBorder": "#ff0000",
+      "editorCommentsWidget.unresolvedBorder": "#ff0000",
+      "editorCommentsWidget.rangeBackground": "#ff0000",
+      "editorCommentsWidget.rangeActiveBackground": "#ff0000",
+      "editorCommentsWidget.replyInputBackground": "#ff0000",
       // https://code.visualstudio.com/api/references/theme-color#diff-editor-colors
       // https://code.visualstudio.com/api/references/theme-color#chat-colors
       // https://code.visualstudio.com/api/references/theme-color#inline-chat-colors
       // https://code.visualstudio.com/api/references/theme-color#panel-chat-colors
       // https://code.visualstudio.com/api/references/theme-color#editor-widget-colors
+      "editorWidget.foreground": "#a89984", // grey2
+      "editorWidget.background": "#32302f", // bg
+      "editorWidget.border": "#45403d", // bg4
+      "editorWidget.resizeBorder": "#45403d", // bg4
+      "editorSuggestWidget.background": "#32302f", // bg
+      "editorSuggestWidget.foreground": "#d4be98", // fg
+      "editorSuggestWidget.focusHighlightForeground": "#e78a4e", // orange
+      "editorSuggestWidget.highlightForeground": "#bd6f3e", // dimOrange
+      "editorSuggestWidget.selectedBackground": "#45403d", // bg4
+      // editorSuggestWidget.selectedForeground
+      "editorSuggestWidget.selectedIconForeground": "#d4be98", // fg
+      "editorSuggestWidgetStatus.foreground": "#ff0000",
+      "editorHoverWidget.foreground": "#d4be98", // fg
+      "editorHoverWidget.background": "#32302f", // bg
+      "editorHoverWidget.border": "#45403d", // bg4
+      "editorHoverWidget.highlightForeground": "#e78a4e", // orange
+      "editorHoverWidget.statusBarBackground": "#32302f", // bg
+      "editorGhostText.border": "#ff0000",
+      "editorGhostText.background": "#ff0000",
+      "editorGhostText.foreground": "#5a524c", // bg6
+      "editorStickyScroll.background": "#32302f", // bg
+      "editorStickyScroll.border": "#32302f", // bg
+      "editorStickyScroll.shadow": "#18191980", // bg0
+      "editorStickyScrollHover.background": "#32302f", // bg
+      "debugExceptionWidget.background": "#ff0000",
+      "debugExceptionWidget.border": "#ff0000",
+      "editorMarkerNavigation.background": "#32302f", // bg
+      "editorMarkerNavigationError.background": "#b85651", // dimRed
+      "editorMarkerNavigationWarning.background": "#c18f41", // dimYellow
+      "editorMarkerNavigationInfo.background": "#68948a", // dimBlue
+      "editorMarkerNavigationError.headerBackground": "#b8565140", // dimRed
+      "editorMarkerNavigationWarning.headerBackground": "#c18f4140", // dimYellow
+      "editorMarkerNavigationInfo.headerBackground": "#68948a40", // dimBlue
       // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
       // https://code.visualstudio.com/api/references/theme-color#merge-conflicts-colors
       // https://code.visualstudio.com/api/references/theme-color#panel-colors
@@ -607,7 +711,7 @@
       "commandCenter.inactiveForeground": "#a89984", // grey2
       "commandCenter.inactiveBorder": "#32302f", // bg
       "commandCenter.activeBorder": "#45403d", // bg4
-      "commandCenter.debuggingBackground": "#ff000080", // bg4
+      "commandCenter.debuggingBackground": "#ff0000fe",
       // https://code.visualstudio.com/api/references/theme-color#notification-colors
       // https://code.visualstudio.com/api/references/theme-color#banner-colors
       // https://code.visualstudio.com/api/references/theme-color#extensions-colors
@@ -647,8 +751,6 @@
       // previous customizations from here
 
       "editorLineNumber.dimmedForeground": "#403c3a",
-
-      "editorRuler.foreground": "#3a3736",
 
       "terminal.ansiBlack": "#3c3836",
       "terminal.ansiBlue": "#45707a",
