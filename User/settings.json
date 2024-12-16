@@ -653,7 +653,7 @@
       "editorSuggestWidget.selectedBackground": "#45403d", // bg4
       // editorSuggestWidget.selectedForeground
       "editorSuggestWidget.selectedIconForeground": "#d4be98", // fg
-      "editorSuggestWidgetStatus.foreground": "#ff0000",
+      "editorSuggestWidgetStatus.foreground": "#a89984", // grey2
       "editorHoverWidget.foreground": "#d4be98", // fg
       "editorHoverWidget.background": "#32302f", // bg
       "editorHoverWidget.border": "#45403d", // bg4
@@ -886,13 +886,31 @@
       "terminalOverviewRuler.border": "#32302f", // bg
       "terminalCommandGuide.foreground": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#debug-colors
+      "debugToolBar.background": "#ff0000",
+      "debugToolBar.border": "#ff0000",
+      "editor.stackFrameHighlightBackground": "#c18f4140", // dimYellow
+      "editor.focusedStackFrameHighlightBackground": "#c18f4140", // dimYellow
+      "editor.inlineValuesForeground": "#ff0000",
+      "editor.inlineValuesBackground": "#ff0000",
+      "debugView.exceptionLabelForeground": "#ff0000",
+      "debugView.exceptionLabelBackground": "#ff0000",
+      "debugView.stateLabelForeground": "#a89984", // grey2
+      "debugView.stateLabelBackground": "#3c3836", // bg2
+      "debugView.valueChangedHighlight": "#c18f41", // dimYellow
+      "debugTokenExpression.name": "#7c6f64", // grey0
+      "debugTokenExpression.value": "#a89984", // grey2
+      "debugTokenExpression.string": "#d8a657", // yellow
+      "debugTokenExpression.boolean": "#d3869b", // purple
+      "debugTokenExpression.number": "#d3869b", // purple
+      "debugTokenExpression.error": "#b85651", // dimRed
+      "debugTokenExpression.type": "#7daea3", // blue
       // https://code.visualstudio.com/api/references/theme-color#testing-colors
       // https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
       // https://code.visualstudio.com/api/references/theme-color#git-colors
       // https://code.visualstudio.com/api/references/theme-color#source-control-graph-colors
       // https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
       "settings.headerForeground": "#a89984", // grey2
-      "settings.modifiedItemIndicator": "#bd6f3e", //dimOrange
+      "settings.modifiedItemIndicator": "#bd6f3e", // dimOrange
       "settings.dropdownBackground": "#32302f", // bg
       "settings.dropdownForeground": "#a89984", // grey2
       "settings.dropdownBorder": "#45403d", // bg4
@@ -916,11 +934,32 @@
       // https://code.visualstudio.com/api/references/theme-color#snippets-colors
       // https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
       // https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
+      "debugIcon.breakpointForeground": "#b85651", // dimRed
+      "debugIcon.breakpointDisabledForeground": "#5a524c", // bg6
+      "debugIcon.breakpointUnverifiedForeground": "#ff0000",
+      "debugIcon.breakpointCurrentStackframeForeground": "#c18f41", // dimYellow
+      "debugIcon.breakpointStackframeForeground": "#c18f41", // dimYellow
+      "debugIcon.startForeground": "#8f9a52", // dimGreen
+      "debugIcon.pauseForeground": "#c18f41", // dimYellow
+      "debugIcon.stopForeground": "#b85651", // dimRed
+      "debugIcon.disconnectForeground": "#ab6c7d", // dimPurple
+      "debugIcon.restartForeground": "#8f9a52", // dimGreen
+      "debugIcon.stepOverForeground": "#68948a", // dimBlue
+      "debugIcon.stepIntoForeground": "#68948a", // dimBlue
+      "debugIcon.stepOutForeground": "#68948a", // dimBlue
+      "debugIcon.continueForeground": "#68948a", // dimBlue
+      "debugIcon.stepBackForeground": "#68948a", // dimBlue
+      "debugConsole.infoForeground": "#68948a", // dimBlue
+      "debugConsole.warningForeground": "#c18f41", // dimYellow
+      "debugConsole.errorForeground": "#b85651", // dimRed
+      "debugConsole.sourceForeground": "#ff0000",
+      "debugConsoleInputIcon.foreground": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#notebook-colors
       // https://code.visualstudio.com/api/references/theme-color#chart-colors
       // https://code.visualstudio.com/api/references/theme-color#ports-colors
       // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
       // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
+      "actionBar.toggledBackground": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
       "simpleFindWidget.sashBorder": "#5a524c" // bg6
     },
