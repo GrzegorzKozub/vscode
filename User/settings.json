@@ -192,10 +192,14 @@
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "kitty",
   "terminal.external.windowsExec": "wt.exe",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontLigatures": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
@@ -209,9 +213,10 @@
       "path": "pwsh.exe"
     }
   },
-  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.scrollback": 10000,
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.tabStopWidth": 2,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -452,6 +457,7 @@
       "editor.foreground": "#d4be98", // fg
       "editorLineNumber.foreground": "#504945", // bg5 (same as neovim)
       "editorLineNumber.activeForeground": "#665c54", // bg7 (same as neovim)
+      "editorLineNumber.dimmedForeground": "#403c3a", // bg3
       "editorCursor.background": "#32302f", // bg
       "editorCursor.foreground": "#a89984", // grey2
       "editorMultiCursor.primary.foreground": "#a89984", // grey2
@@ -838,14 +844,74 @@
       "keybindingTable.headerBackground": "#32302f", // bg
       "keybindingTable.rowsBackground": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#integrated-terminal-colors
-
+      "terminal.background": "#32302f", // bg
+      "terminal.border": "#3c3836", // bg2
+      "terminal.foreground": "#d4be98", // fg
+      "terminal.ansiBlack": "#3c3836", // termBlack
+      "terminal.ansiBlue": "#45707a", // termBlue
+      "terminal.ansiBrightBlack": "#665c54", // black
+      "terminal.ansiBrightBlue": "#7daea3", // blue
+      "terminal.ansiBrightCyan": "#89b482", // aqua
+      "terminal.ansiBrightGreen": "#a9b665", // green
+      "terminal.ansiBrightMagenta": "#d3869b", // purple
+      "terminal.ansiBrightRed": "#ea6962", // red
+      "terminal.ansiBrightWhite": "#d4be98", // white
+      "terminal.ansiBrightYellow": "#d8a657", // yellow
+      "terminal.ansiCyan": "#4c7a5d", // termAqua
+      "terminal.ansiGreen": "#6c782e", // termGreen
+      "terminal.ansiMagenta": "#945e80", // termPurple
+      "terminal.ansiRed": "#c14a4a", // termRed
+      "terminal.ansiWhite": "#928374", // termWhite
+      "terminal.ansiYellow": "#b47109", // termYellow
+      "terminal.selectionBackground": "#5a524c80", // bg6
+      // terminal.selectionForeground
+      "terminal.inactiveSelectionBackground": "#5a524c80", // bg6
+      "terminal.findMatchBackground": "#bd6f3e", // dimOrange
+      // terminal.findMatchBorder
+      "terminal.findMatchHighlightBackground": "#bd6f3e80", // dimOrange
+      // terminal.findMatchHighlightBorder
+      "terminal.hoverHighlightBackground": "#7daea340", // blue
+      "terminalCursor.background": "#32302f", // bg
+      "terminalCursor.foreground": "#928374", // grey1
+      "terminal.dropBackground": "#242424c0", // bg1
+      "terminal.tab.activeBorder": "#bd6f3e", // dimOrange
+      "terminalCommandDecoration.defaultBackground": "#45707a80", // termBlue
+      "terminalCommandDecoration.successBackground": "#45707a80", // termBlue
+      "terminalCommandDecoration.errorBackground": "#c14a4a80", // termRed
+      "terminalOverviewRuler.cursorForeground": "#928374", // grey1
+      "terminalOverviewRuler.findMatchForeground": "#bd6f3e80", // dimOrange
+      "terminalStickyScroll.background": "#32302f", // bg
+      "terminalStickyScrollHover.background": "#3c3836", // bg2
+      "terminal.initialHintForeground": "#ff0000",
+      "terminalOverviewRuler.border": "#32302f", // bg
+      "terminalCommandGuide.foreground": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#debug-colors
       // https://code.visualstudio.com/api/references/theme-color#testing-colors
       // https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
       // https://code.visualstudio.com/api/references/theme-color#git-colors
       // https://code.visualstudio.com/api/references/theme-color#source-control-graph-colors
       // https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
-
+      "settings.headerForeground": "#a89984", // grey2
+      "settings.modifiedItemIndicator": "#bd6f3e", //dimOrange
+      "settings.dropdownBackground": "#32302f", // bg
+      "settings.dropdownForeground": "#a89984", // grey2
+      "settings.dropdownBorder": "#45403d", // bg4
+      "settings.dropdownListBorder": "#45403d", // bg4
+      "settings.checkboxBackground": "#32302f", // bg
+      "settings.checkboxForeground": "#bd6f3e", // dimOrange
+      "settings.checkboxBorder": "#45403d", // bg4
+      "settings.rowHoverBackground": "#3c3836", // bg2
+      "settings.textInputBackground": "#32302f", // bg
+      "settings.textInputForeground": "#a89984", // grey2
+      "settings.textInputBorder": "#45403d", // bg4
+      "settings.numberInputBackground": "#32302f", // bg
+      "settings.numberInputForeground": "#ab6c7d", // dimPurple
+      "settings.numberInputBorder": "#45403d", // bg4
+      "settings.focusedRowBackground": "#3c3836", // bg2
+      "settings.focusedRowBorder": "#3c3836", // bg2
+      "settings.headerBorder": "#32302f", // bg
+      "settings.sashBorder": "#32302f", // bg
+      "settings.settingsHeaderHoverForeground": "#ddc7a1", // fg0
       // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
       // https://code.visualstudio.com/api/references/theme-color#snippets-colors
       // https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
@@ -856,43 +922,7 @@
       // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
       // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
       // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
-      "simpleFindWidget.sashBorder": "#5a524c", // bg6
-
-      //keep
-      "settings.rowHoverBackground": "#3c3836", // bg2
-
-      //"editor.selectionBackground": "#5a524c80",
-      //  "sideBar.foreground": "#a89984",
-      // "dropdown.foreground": "#ff0000",
-      //  "menu.selectionBorder":"#ff0000",
-      // "widget.border":"#ff0000",
-      // "panelTitle.activeBorder": "#5a524c",
-      // "tab.activeBorder": "#7c6f64",
-      // "tab.unfocusedActiveBorder": "#5a524c",
-
-      // previous customizations from here
-
-      "editorLineNumber.dimmedForeground": "#403c3a",
-
-      "terminal.ansiBlack": "#3c3836",
-      "terminal.ansiBlue": "#45707a",
-      "terminal.ansiBrightBlack": "#665c54",
-      "terminal.ansiBrightBlue": "#7daea3",
-      "terminal.ansiBrightCyan": "#89b482",
-      "terminal.ansiBrightGreen": "#a9b665",
-      "terminal.ansiBrightMagenta": "#d3869b",
-      "terminal.ansiBrightRed": "#ea6962",
-      "terminal.ansiBrightWhite": "#d4be98",
-      "terminal.ansiBrightYellow": "#d8a657",
-      "terminal.ansiCyan": "#4c7a5d",
-      "terminal.ansiGreen": "#6c782e",
-      "terminal.ansiMagenta": "#945e80",
-      "terminal.ansiRed": "#c14a4a",
-      "terminal.ansiWhite": "#928374",
-      "terminal.ansiYellow": "#b47109",
-      "terminal.foreground": "#d4be98",
-      "terminalCursor.background": "#32302f",
-      "terminalCursor.foreground": "#928374"
+      "simpleFindWidget.sashBorder": "#5a524c" // bg6
     },
     "[Gruvbox Material Light]": {
       "editorCursor.background": "#f2e5bc",
@@ -948,6 +978,5 @@
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Gruvbox Material Dark"
+  }
 }
