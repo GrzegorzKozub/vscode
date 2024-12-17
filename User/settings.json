@@ -1,5 +1,4 @@
 {
-  "breadcrumbs.enabled": false,
   "chat.editor.fontSize": 14,
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
@@ -834,7 +833,7 @@
       "quickInputList.focusBackground": "#45403d", // bg4
       "quickInputList.focusForeground": "#ddc7a1", // fg0
       "quickInputList.focusIconForeground": "#ddc7a1", // fg0
-      "quickInputTitle.background": "#ff0000",
+      "quickInputTitle.background": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#keybinding-label-colors
       "keybindingLabel.background": "#3c3836", // bg2
       "keybindingLabel.foreground": "#a89984", // grey2
@@ -906,6 +905,14 @@
       "debugTokenExpression.type": "#7daea3", // blue
       // https://code.visualstudio.com/api/references/theme-color#testing-colors
       // https://code.visualstudio.com/api/references/theme-color#welcome-page-colors
+      "welcomePage.background": "#32302f", // bg
+      "welcomePage.progress.background": "#24242480", // bg1
+      "welcomePage.progress.foreground": "#bd6f3e", // dimOrange
+      "welcomePage.tileBackground": "#24242480", // bg1
+      "welcomePage.tileHoverBackground": "#3c3836", // bg2
+      "welcomePage.tileBorder": "#24242480", // bg1
+      "walkThrough.embeddedEditorBackground": "#32302f", // bg
+      "walkthrough.stepTitle.foreground": "#a89984", // grey2
       // https://code.visualstudio.com/api/references/theme-color#git-colors
       // https://code.visualstudio.com/api/references/theme-color#source-control-graph-colors
       // https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
@@ -931,8 +938,50 @@
       "settings.sashBorder": "#32302f", // bg
       "settings.settingsHeaderHoverForeground": "#ddc7a1", // fg0
       // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
+      "breadcrumb.foreground": "#a89984", // grey2
+      "breadcrumb.background": "#32302f", // bg
+      "breadcrumb.focusForeground": "#ddc7a1", // fg0
+      "breadcrumb.activeSelectionForeground": "#ddc7a1", // fg0
+      "breadcrumbPicker.background": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#snippets-colors
+      "editor.snippetTabstopHighlightBackground": "#a89984", // grey2
+      // editor.snippetTabstopHighlightBorder
+      "editor.snippetFinalTabstopHighlightBackground": "#a89984", // grey2
+      // editor.snippetFinalTabstopHighlightBorder
       // https://code.visualstudio.com/api/references/theme-color#symbol-icons-colors
+      "symbolIcon.arrayForeground": "#a89984", // grey2
+      "symbolIcon.booleanForeground": "#a89984", // grey2
+      "symbolIcon.classForeground": "#c18f41", // dimYellow
+      "symbolIcon.colorForeground": "#a89984", // grey2
+      "symbolIcon.constantForeground": "#a89984", // grey2
+      "symbolIcon.constructorForeground": "#ab6c7d", // dimPurple
+      "symbolIcon.enumeratorForeground": "#c18f41", // dimYellow
+      "symbolIcon.enumeratorMemberForeground": "#68948a", // dimBlue
+      "symbolIcon.eventForeground": "#c18f41", // dimYellow
+      "symbolIcon.fieldForeground": "#68948a", // dimBlue
+      "symbolIcon.fileForeground": "#a89984", // grey2
+      "symbolIcon.folderForeground": "#a89984", // grey2
+      "symbolIcon.functionForeground": "#ab6c7d", // dimPurple
+      "symbolIcon.interfaceForeground": "#68948a", // dimBlue
+      "symbolIcon.keyForeground": "#a89984", // grey2
+      "symbolIcon.keywordForeground": "#a89984", // grey2
+      "symbolIcon.methodForeground": "#ab6c7d", // dimPurple
+      "symbolIcon.moduleForeground": "#a89984", // grey2
+      "symbolIcon.namespaceForeground": "#a89984", // grey2
+      "symbolIcon.nullForeground": "#a89984", // grey2
+      "symbolIcon.numberForeground": "#a89984", // grey2
+      "symbolIcon.objectForeground": "#a89984", // grey2
+      "symbolIcon.operatorForeground": "#a89984", // grey2
+      "symbolIcon.packageForeground": "#a89984", // grey2
+      "symbolIcon.propertyForeground": "#a89984", // grey2
+      "symbolIcon.referenceForeground": "#a89984", // grey2
+      "symbolIcon.snippetForeground": "#a89984", // grey2
+      "symbolIcon.stringForeground": "#a89984", // grey2
+      "symbolIcon.structForeground": "#a89984", // grey2
+      "symbolIcon.textForeground": "#a89984", // grey2
+      "symbolIcon.typeParameterForeground": "#a89984", // grey2
+      "symbolIcon.unitForeground": "#a89984", // grey2
+      "symbolIcon.variableForeground": "#68948a", // dimBlue
       // https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
       "debugIcon.breakpointForeground": "#b85651", // dimRed
       "debugIcon.breakpointDisabledForeground": "#5a524c", // bg6
@@ -956,8 +1005,11 @@
       "debugConsoleInputIcon.foreground": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#notebook-colors
       // https://code.visualstudio.com/api/references/theme-color#chart-colors
-      // https://code.visualstudio.com/api/references/theme-color#ports-colors
+      // https://code.visualstudio.com/api/references/theme-color#ports-colors\
+      "ports.iconRunningProcessForeground": "#8f9a52", // dimGreen
       // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
+      "commentsView.resolvedIcon": "#ff0000",
+      "commentsView.unresolvedIcon": "#ff0000",
       // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
       "actionBar.toggledBackground": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
