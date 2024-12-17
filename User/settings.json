@@ -1001,11 +1001,22 @@
       "debugConsole.infoForeground": "#68948a", // dimBlue
       "debugConsole.warningForeground": "#c18f41", // dimYellow
       "debugConsole.errorForeground": "#b85651", // dimRed
-      "debugConsole.sourceForeground": "#ff0000",
+      "debugConsole.sourceForeground": "#7c6f64", // grey0
       "debugConsoleInputIcon.foreground": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#notebook-colors
       // https://code.visualstudio.com/api/references/theme-color#chart-colors
-      // https://code.visualstudio.com/api/references/theme-color#ports-colors\
+      "charts.foreground": "#a89984",
+      "charts.lines": "#a8998480",
+      "charts.red": "#b85651", // dimRed
+      "charts.blue": "#68948a", // dimBlue
+      "charts.yellow": "#c18f41", // dimYellow
+      "charts.orange": "#bd6f3e", // dimOrange
+      "charts.green": "#8f9a52", // dimGreen
+      "charts.purple": "#ab6c7d", // dimPurple
+      "chart.line": "#236b8e",
+      "chart.axis": "#bfbfbf66",
+      "chart.guide": "#bfbfbf33",
+      // https://code.visualstudio.com/api/references/theme-color#ports-colors
       "ports.iconRunningProcessForeground": "#8f9a52", // dimGreen
       // https://code.visualstudio.com/api/references/theme-color#comments-view-colors
       "commentsView.resolvedIcon": "#ff0000",
