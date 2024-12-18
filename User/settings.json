@@ -237,6 +237,32 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[*]": {
+      // https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md
+
+      // todo: missing options
+
+      //"editorActiveLineNumber.foreground": "#c6c6c6",
+      //"editorSuggestWidget.border": "#45403d",
+      //"inlineEdit.border": "#3c3c3c",
+      //"inlineEdit.indicator.background": "#bd6f3e",
+      //"inlineEdit.indicator.border": "#32302f",
+      //"inlineEdit.indicator.foreground": "#32302f",
+      //"inlineEdit.modifiedBackground": "#8f9a5226",
+      //"inlineEdit.modifiedChangedLineBackground": "#00000000",
+      //"inlineEdit.modifiedChangedTextBackground": "#8f9a5260",
+      //"inlineEdit.originalBackground": "#b8565126",
+      //"inlineEdit.originalChangedLineBackground": "#00000000",
+      //"inlineEdit.originalChangedTextBackground": "#b8565160",
+      //"merge.commonHeaderBackground": "#60606066",
+      //"rust_analyzer.syntaxTreeBorder": "#ffffff",
+      //"button.border": null,
+      //"contrastActiveBorder": null,
+      //"contrastBorder": null,
+      //"panelTitle.border": null,
+      //"quickInput.list.focusBackground": null,
+      //"sideBarTitle.border": null,
+      //"terminalStickyScroll.border": null,
+
       // https://code.visualstudio.com/api/references/theme-color#base-colors
       "focusBorder": "#5a524c", // bg6
       "foreground": "#a89984", // grey2
