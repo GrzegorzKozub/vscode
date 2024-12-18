@@ -199,7 +199,7 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code NF",
   "terminal.integrated.fontLigatures": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.minimumContrastRatio": 1,
@@ -236,35 +236,22 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
+    // https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md
     "[*]": {
-      // https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md
-
-      // todo: missing options
-
-      //"editorActiveLineNumber.foreground": "#c6c6c6",
-      //"editorSuggestWidget.border": "#45403d",
-      //"inlineEdit.border": "#3c3c3c",
-      //"inlineEdit.indicator.background": "#bd6f3e",
-      //"inlineEdit.indicator.border": "#32302f",
-      //"inlineEdit.indicator.foreground": "#32302f",
-      //"inlineEdit.modifiedBackground": "#8f9a5226",
-      //"inlineEdit.modifiedChangedLineBackground": "#00000000",
-      //"inlineEdit.modifiedChangedTextBackground": "#8f9a5260",
-      //"inlineEdit.originalBackground": "#b8565126",
-      //"inlineEdit.originalChangedLineBackground": "#00000000",
-      //"inlineEdit.originalChangedTextBackground": "#b8565160",
-      //"merge.commonHeaderBackground": "#60606066",
-      //"rust_analyzer.syntaxTreeBorder": "#ffffff",
-      //"button.border": null,
-      //"contrastActiveBorder": null,
-      //"contrastBorder": null,
-      //"panelTitle.border": null,
-      //"quickInput.list.focusBackground": null,
-      //"sideBarTitle.border": null,
-      //"terminalStickyScroll.border": null,
-
+      "inlineEdit.border": "#ff0000",
+      "inlineEdit.indicator.background": "#ff0000",
+      "inlineEdit.indicator.border": "#ff0000",
+      "inlineEdit.indicator.foreground": "#ff0000",
+      "inlineEdit.modifiedBackground": "#ff0000fe",
+      "inlineEdit.modifiedChangedLineBackground": "#ff0000fe",
+      "inlineEdit.modifiedChangedTextBackground": "#ff0000fe",
+      "inlineEdit.originalBackground": "#ff0000fe",
+      "inlineEdit.originalChangedLineBackground": "#ff0000fe",
+      "inlineEdit.originalChangedTextBackground": "#ff0000fe",
       // https://code.visualstudio.com/api/references/theme-color#base-colors
       "focusBorder": "#5a524c", // bg6
+      "contrastBorder": "default",
+      "contrastActiveBorder": "default",
       "foreground": "#a89984", // grey2
       "disabledForeground": "#5a524c", // bg6
       "widget.border": "#45403d", // bg4
@@ -417,6 +404,7 @@
       "sideBarSectionHeader.border": "#32302f", // bg
       "sideBarActivityBarTop.border": "#32302f", // bg
       "sideBarTitle.background": "#32302f", // bg
+      "sideBarTitle.border": "default",
       "sideBarStickyScroll.background": "#32302f", // bg
       "sideBarStickyScroll.border": "#32302f", // bg
       "sideBarStickyScroll.shadow": "#18191980", // bg0
@@ -675,6 +663,7 @@
       "editorWidget.resizeBorder": "#45403d", // bg4
       "editorSuggestWidget.background": "#32302f", // bg
       "editorSuggestWidget.foreground": "#d4be98", // fg
+      "editorSuggestWidget.border": "#45403d", // bg4
       "editorSuggestWidget.focusHighlightForeground": "#e78a4e", // orange
       "editorSuggestWidget.highlightForeground": "#bd6f3e", // dimOrange
       "editorSuggestWidget.selectedBackground": "#45403d", // bg4
@@ -724,6 +713,7 @@
       "merge.incomingHeaderBackground": "#68948a60", // dimBlue
       "merge.incomingContentBackground": "#68948a40", // dimBlue
       "merge.border": "default",
+      "merge.commonHeaderBackground": "#ff0000fe",
       "merge.commonContentBackground": "#ff0000fe",
       "editorOverviewRuler.currentContentForeground": "#8f9a5280", // dimGreen
       "editorOverviewRuler.incomingContentForeground": "#68948a80", // dimBlue
@@ -747,6 +737,7 @@
       "panel.background": "#32302f", // bg
       "panel.border": "#32302f", // bg
       "panel.dropBorder": "#242424", // bg1
+      "panelTitle.border": "default",
       "panelTitle.activeBorder": "#bd6f3e", // dimOrange
       "panelTitle.activeForeground": "#a89984", // grey2
       "panelTitle.inactiveForeground": "#7c6f64", // grey0
@@ -910,6 +901,7 @@
       "terminalOverviewRuler.findMatchForeground": "#bd6f3e80", // dimOrange
       "terminalStickyScroll.background": "#32302f", // bg
       "terminalStickyScrollHover.background": "#3c3836", // bg2
+      "terminalStickyScroll.border": "#32302f", // bg
       "terminal.initialHintForeground": "#ff0000",
       "terminalOverviewRuler.border": "#32302f", // bg
       "terminalCommandGuide.foreground": "#45403d", // bg4
@@ -1133,7 +1125,9 @@
       // https://code.visualstudio.com/api/references/theme-color#action-bar-colors
       "actionBar.toggledBackground": "#45403d", // bg4
       // https://code.visualstudio.com/api/references/theme-color#simple-find-widget
-      "simpleFindWidget.sashBorder": "#5a524c" // bg6
+      "simpleFindWidget.sashBorder": "#5a524c", // bg6
+      // rust-lang.rust-analyzer
+      "rust_analyzer.syntaxTreeBorder": "#ff0000"
     },
     "[Gruvbox Material Light]": {
       "editorCursor.background": "#f2e5bc",
