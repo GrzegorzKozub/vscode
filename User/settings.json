@@ -739,7 +739,7 @@
       "statusBar.background": "#32302f", // bg
       "statusBar.foreground": "#a89984", // grey2
       "statusBar.border": "#32302f", // bg
-      "statusBar.debuggingBackground": "#ab6c7d", // dimPurple
+      "statusBar.debuggingBackground": "#68948a", // dimBlue
       "statusBar.debuggingForeground": "#32302f", // bg
       "statusBar.debuggingBorder": "#32302f", // bg
       "statusBar.noFolderForeground": "#a89984", // grey2
@@ -754,7 +754,7 @@
       "statusBarItem.prominentHoverBackground": "#e78a4e", // orange
       "statusBarItem.remoteBackground": "#32302f", // bg
       "statusBarItem.remoteForeground": "#a89984", // grey2
-      "statusBarItem.remoteHoverBackground": "#7daea3", // blue
+      "statusBarItem.remoteHoverBackground": "#d3869b", // purple
       "statusBarItem.remoteHoverForeground": "#32302f", // bg
       "statusBarItem.errorBackground": "#b85651", // dimRed
       "statusBarItem.errorForeground": "#32302f", // bg
@@ -948,35 +948,31 @@
       "walkThrough.embeddedEditorBackground": "#32302f", // bg
       "walkthrough.stepTitle.foreground": "#a89984", // grey2
       // https://code.visualstudio.com/api/references/theme-color#git-colors
-
-      "gitDecoration.addedResourceForeground": "#81b88b",
-      "gitDecoration.modifiedResourceForeground": "#e2c08d",
-      "gitDecoration.deletedResourceForeground": "#c74e39",
-      "gitDecoration.renamedResourceForeground": "#73c991",
-      "gitDecoration.stageModifiedResourceForeground": "#e2c08d",
-      "gitDecoration.stageDeletedResourceForeground": "#c74e39",
-      "gitDecoration.untrackedResourceForeground": "#73c991",
-      "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-      "gitDecoration.conflictingResourceForeground": "#e4676b",
-      "gitDecoration.submoduleResourceForeground": "#8db9e2",
-      "git.blame.editorDecorationForeground": "#504945",
-
+      "gitDecoration.addedResourceForeground": "#8f9a52", // dimGreen
+      "gitDecoration.modifiedResourceForeground": "#68948a", // dimBlue
+      "gitDecoration.deletedResourceForeground": "#b85651", // dimRed
+      "gitDecoration.renamedResourceForeground": "#c18f41", // dimYellow
+      "gitDecoration.stageModifiedResourceForeground": "#68948a", // dimBlue
+      "gitDecoration.stageDeletedResourceForeground": "#b85651", // dimRed
+      "gitDecoration.untrackedResourceForeground": "#a89984", // grey2
+      "gitDecoration.ignoredResourceForeground": "#7c6f64", // grey0
+      "gitDecoration.conflictingResourceForeground": "#c18f41", // dimYellow
+      "gitDecoration.submoduleResourceForeground": "#ab6c7d", // dimPurple
+      "git.blame.editorDecorationForeground": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#source-control-graph-colors
-
-      "scmGraph.historyItemHoverLabelForeground": "#32302f",
-      "scmGraph.foreground1": "#ffb000",
-      "scmGraph.foreground2": "#dc267f",
-      "scmGraph.foreground3": "#994f00",
-      "scmGraph.foreground4": "#40b0a6",
-      "scmGraph.foreground5": "#b66dff",
-      "scmGraph.historyItemHoverAdditionsForeground": "#81b88b",
-      "scmGraph.historyItemHoverDeletionsForeground": "#c74e39",
-      "scmGraph.historyItemRefColor": "#68948a",
-      "scmGraph.historyItemRemoteRefColor": "#ab6c7d",
-      "scmGraph.historyItemBaseRefColor": "#ea5c00",
-      "scmGraph.historyItemHoverDefaultLabelForeground": "#a89984",
-      "scmGraph.historyItemHoverDefaultLabelBackground": "#a89984",
-
+      "scmGraph.historyItemHoverLabelForeground": "#32302f", // bg
+      "scmGraph.foreground1": "#8f9a52", // dimGreen
+      "scmGraph.foreground2": "#c18f41", // dimYellow
+      "scmGraph.foreground3": "#ab6c7d", // dimPurple
+      "scmGraph.foreground4": "#72966c", // dimAqua
+      "scmGraph.foreground5": "#bd6f3e", // dimOrange
+      "scmGraph.historyItemHoverAdditionsForeground": "#8f9a52", // dimGreen
+      "scmGraph.historyItemHoverDeletionsForeground": "#b85651", // dimRed
+      "scmGraph.historyItemRefColor": "#68948a", // dimBlue
+      "scmGraph.historyItemRemoteRefColor": "#ab6c7d", // dimPurple
+      "scmGraph.historyItemBaseRefColor": "#ff0000",
+      "scmGraph.historyItemHoverDefaultLabelForeground": "#32302f", // bg
+      "scmGraph.historyItemHoverDefaultLabelBackground": "#a89984", // grey2
       // https://code.visualstudio.com/api/references/theme-color#settings-editor-colors
       "settings.headerForeground": "#a89984", // grey2
       "settings.modifiedItemIndicator": "#bd6f3e", // dimOrange
@@ -1066,32 +1062,30 @@
       "debugConsole.sourceForeground": "#7c6f64", // grey0
       "debugConsoleInputIcon.foreground": "#5a524c", // bg6
       // https://code.visualstudio.com/api/references/theme-color#notebook-colors
-
-      "notebook.editorBackground": "#32302f",
-      "notebook.cellBorderColor": "#3c3836",
-      "notebook.cellHoverBackground": "#ff0000",
-      "notebook.cellInsertionIndicator": "#5a524c",
-      "notebook.cellStatusBarItemHoverBackground": "#ffffff26",
-      "notebook.cellToolbarSeparator": "#80808059",
-      "notebook.cellEditorBackground": "#32302f",
-      "notebook.focusedCellBackground": "#ff0000",
-      "notebook.focusedCellBorder": "#5a524c",
-      "notebook.focusedEditorBorder": "#5a524c",
-      "notebook.inactiveFocusedCellBorder": "#3c3836",
+      "notebook.editorBackground": "#32302f", // bg
+      "notebook.cellBorderColor": "#45403d", // bg4
+      "notebook.cellHoverBackground": "#32302f", // bg
+      "notebook.cellInsertionIndicator": "#242424", // bg1
+      "notebook.cellStatusBarItemHoverBackground": "#45403d", // bg4
+      "notebook.cellToolbarSeparator": "#45403d", // bg4
+      "notebook.cellEditorBackground": "#32302f", // bg
+      "notebook.focusedCellBackground": "#32302f", // bg
+      "notebook.focusedCellBorder": "#bd6f3e", // dimOrange
+      "notebook.focusedEditorBorder": "#5a524c", // bg6
+      "notebook.inactiveFocusedCellBorder": "#45403d", // bg4
       "notebook.inactiveSelectedCellBorder": "#ff0000",
-      "notebook.outputContainerBackgroundColor": "#ff0000",
-      "notebook.outputContainerBorderColor": "#ff0000",
-      "notebook.selectedCellBackground": "#3c3836",
-      "notebook.selectedCellBorder": "#3c3836",
-      "notebook.symbolHighlightBackground": "#ffffff0b",
-      "notebookScrollbarSlider.activeBackground": "#5a524c80",
-      "notebookScrollbarSlider.background": "#45403d80",
-      "notebookScrollbarSlider.hoverBackground": "#5a524c80",
-      "notebookStatusErrorIcon.foreground": "#b85651",
-      "notebookStatusRunningIcon.foreground": "#a89984",
-      "notebookStatusSuccessIcon.foreground": "#8f9a52",
-      "notebookEditorOverviewRuler.runningCellForeground": "#8f9a52",
-
+      "notebook.outputContainerBackgroundColor": "#32302f", // bg
+      "notebook.outputContainerBorderColor": "#45403d", // bg4
+      "notebook.selectedCellBackground": "#ff0000",
+      "notebook.selectedCellBorder": "#ff0000",
+      "notebook.symbolHighlightBackground": "#ff0000",
+      "notebookScrollbarSlider.activeBackground": "#5a524c80", // bg6
+      "notebookScrollbarSlider.background": "#45403d80", // bg4
+      "notebookScrollbarSlider.hoverBackground": "#5a524c80", // bg6
+      "notebookStatusErrorIcon.foreground": "#b85651", // dimRed
+      "notebookStatusRunningIcon.foreground": "#bd6f3e", // dimOrange
+      "notebookStatusSuccessIcon.foreground": "#8f9a52", // dimGreen
+      "notebookEditorOverviewRuler.runningCellForeground": "#68948a", // dimBlue
       // https://code.visualstudio.com/api/references/theme-color#chart-colors
       "charts.foreground": "#ff0000",
       "charts.lines": "#ff0000",
