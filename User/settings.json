@@ -237,6 +237,7 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     // https://github.com/microsoft/vscode-docs/blob/main/api/references/theme-color.md
+    // https://github.com/microsoft/vscode/tree/main/src/vs/platform/theme/common/colors
     "[*]": {
       "inlineEdit.border": "#ff0000",
       "inlineEdit.indicator.background": "#ff0000",
@@ -581,8 +582,8 @@
       "editorOverviewRuler.warningForeground": "#c18f4180", // dimYellow
       "editorOverviewRuler.infoForeground": "#45707a80", // dimBlue
       "editorOverviewRuler.bracketMatchForeground": "#5a524cc0", // bg6
-      "editorOverviewRuler.inlineChatInserted": "#ff0000",
-      "editorOverviewRuler.inlineChatRemoved": "#ff0000",
+      "editorOverviewRuler.inlineChatInserted": "#8f9a5280", // dimGreen
+      "editorOverviewRuler.inlineChatRemoved": "#b8565180", // dimRed
       "editorError.foreground": "#b85651", // dimRed
       "editorError.border": "default",
       "editorError.background": "default",
@@ -635,24 +636,24 @@
       "multiDiffEditor.background": "#32302f", // bg
       "multiDiffEditor.border": "#32302f", // bg
       // https://code.visualstudio.com/api/references/theme-color#chat-colors
-      "chat.requestBorder": "#45403d", // bg4
-      "chat.requestBackground": "#ff0000",
-      "chat.slashCommandBackground": "#ff0000",
-      "chat.slashCommandForeground": "#ff0000",
-      "chat.avatarBackground": "#ff0000",
-      "chat.avatarForeground": "#ff0000",
+      "chat.requestBorder": "#32302f", // bg
+      "chat.requestBackground": "#32302f", // bg
+      "chat.slashCommandBackground": "#32302f", // bg
+      "chat.slashCommandForeground": "#68948a", // dimBlue
+      "chat.avatarBackground": "#32302f", // bg
+      "chat.avatarForeground": "#bd6f3e", // dimOrange
       "chat.editedFileForeground": "#ff0000",
       // https://code.visualstudio.com/api/references/theme-color#inline-chat-colors
-      "inlineChat.background": "#ff0000",
-      "inlineChat.foreground": "#ff0000",
-      "inlineChat.border": "#ff0000",
+      "inlineChat.background": "#32302f", // bg
+      "inlineChat.foreground": "#a89984", // grey2
+      "inlineChat.border": "#45403d", // bg4
       "inlineChat.shadow": "#ff0000",
       "inlineChatInput.border": "#ff0000",
       "inlineChatInput.focusBorder": "#ff0000",
       "inlineChatInput.background": "#ff0000",
       "inlineChatInput.placeholderForeground": "#ff0000",
-      "inlineChatDiff.inserted": "#ff0000",
-      "inlineChatDiff.removed": "#ff0000",
+      "inlineChatDiff.inserted": "#8f9a5260", // dimGreen
+      "inlineChatDiff.removed": "#b8565160", // dimRed
       // https://code.visualstudio.com/api/references/theme-color#panel-chat-colors
       "interactive.activeCodeBorder": "#ff0000",
       "interactive.inactiveCodeBorder": "#ff0000",
