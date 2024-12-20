@@ -26,7 +26,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": {
-    "[Gruvbox Material *]": {
+    "[Gruvbox Material Flat *]": {
       "textMateRules": [
         {
           "name": "punctuation",
@@ -59,7 +59,7 @@
         }
       ]
     },
-    "[Gruvbox Material Dark]": {
+    "[Gruvbox Material Flat Dark]": {
       "textMateRules": [
         {
           "name": "comments",
@@ -83,7 +83,7 @@
         }
       ]
     },
-    "[Gruvbox Material Light]": {
+    "[Gruvbox Material Flat Light]": {
       "textMateRules": [
         {
           "name": "comments",
@@ -230,7 +230,7 @@
   "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "[*]": {},
-    "[Gruvbox Material Light]": {
+    "[Gruvbox Material Flat Light]": {
       "editorCursor.background": "#f2e5bc",
       "editorCursor.foreground": "#928374",
       "editorInlayHint.foreground": "#a89984",
