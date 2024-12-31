@@ -77,8 +77,11 @@
   "json.schemaDownload.enable": true,
   "Lua.hint.enable": true,
   "Lua.hint.setType": true,
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.markEditorSelection": false,
+  "markdown.validate.enabled": true,
   "material-icon-theme.activeIconPack": "none",
-  "material-icon-theme.folders.color": "#a69883",
+  "material-icon-theme.folders.color": "#928374", // grey1
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.saturation": 0.5,
