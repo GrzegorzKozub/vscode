@@ -112,6 +112,7 @@
   "terminal.integrated.cursorWidth": 2,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.windows": "pwsh",
+  "terminal.integrated.enableImages": true,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.fontFamily": "Cascadia Code NF",
   "terminal.integrated.fontLigatures": true,
