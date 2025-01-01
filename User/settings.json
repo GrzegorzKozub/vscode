@@ -102,6 +102,7 @@
   "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "always",
   "rust-analyzer.inlayHints.rangeExclusiveHints.enable": true,
   "rust-analyzer.inlayHints.reborrowHints.enable": "always",
+  "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
   "telemetry.telemetryLevel": "off",
