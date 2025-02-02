@@ -63,6 +63,7 @@
   "go.inlayHints.rangeVariableTypes": true,
   "go.showWelcome": false,
   "go.survey.prompt": false,
+  "gopls": { "ui.diagnostic.analyses": { "shadow": true } },
   "html.format.wrapLineLength": 0,
   "isort.args": ["--profile", "black"],
   "javascript.inlayHints.enumMemberValues.enabled": true,
