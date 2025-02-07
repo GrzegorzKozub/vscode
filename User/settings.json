@@ -55,6 +55,7 @@
     "xml": true,
     "yaml": true
   },
+  "github.copilot.nextEditSuggestions.enabled": true,
   "github.gitProtocol": "ssh",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
