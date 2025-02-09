@@ -35,7 +35,7 @@
   "git.blame.statusBarItem.enabled": true,
   "git.blame.statusBarItem.template": "${authorName}, ${authorDateAgo}, ${hashShort}",
   "git.openRepositoryInParentFolders": "always",
-  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableAutoCompletions": false,
   "github.copilot.enable": {
     "*": false,
     "csharp": true,
@@ -158,34 +158,7 @@
   "window.restoreWindows": "none",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
-  "workbench.colorCustomizations": {
-    "[*]": {
-      // done
-      "editorGhostText.background": "default",
-      "editorGhostText.border": "default",
-      "editorGhostText.foreground": "#a89984",
-      // new
-      "inlineEdit.gutterIndicator.background": "default",
-      "inlineEdit.gutterIndicator.primaryBackground": "default",
-      "inlineEdit.gutterIndicator.primaryForeground": "default",
-      "inlineEdit.gutterIndicator.secondaryBackground": "default",
-      "inlineEdit.gutterIndicator.secondaryForeground": "default",
-      "inlineEdit.gutterIndicator.successfulBackground": "default",
-      "inlineEdit.gutterIndicator.successfulForeground": "default",
-      "inlineEdit.indicator.background": "default",
-      "inlineEdit.indicator.border": "default",
-      "inlineEdit.indicator.foreground": "default",
-      "inlineEdit.modifiedBackground": "default",
-      "inlineEdit.modifiedBorder": "default",
-      "inlineEdit.modifiedChangedLineBackground": "default",
-      "inlineEdit.modifiedChangedTextBackground": "default",
-      "inlineEdit.originalBackground": "default",
-      "inlineEdit.originalBorder": "default",
-      "inlineEdit.originalChangedLineBackground": "default",
-      "inlineEdit.originalChangedTextBackground": "default",
-      "inlineEdit.wordReplacementView.background": "default"
-    }
-  },
+  "workbench.colorCustomizations": { "[*]": { } },
   "workbench.colorTheme": "Gruvbox Material Flat Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.iconTheme": "material-icon-theme",
