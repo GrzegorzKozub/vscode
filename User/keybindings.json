@@ -18,51 +18,45 @@
   },
 
   { "key": "ctrl+o", "command": "workbench.action.navigateBack" },
-  { "key": "ctrl+i", "command": "workbench.action.navigateForward" },
+  { "key": "alt+left", "command": "workbench.action.navigateBack" },
+  { "key": "alt+right", "command": "workbench.action.navigateForward" },
 
-  { "key": "ctrl+k r", "command": "workbench.action.splitEditor" },
-  { "key": "ctrl+k d", "command": "workbench.action.splitEditorDown" },
+  { "key": "ctrl+w ctrl+w", "command": "workbench.action.closeActiveEditor" },
 
-  { "key": "alt+r", "command": "workbench.action.splitEditor" },
-  { "key": "alt+d", "command": "workbench.action.splitEditorDown" },
+  { "key": "ctrl+w r", "command": "workbench.action.splitEditor" },
+  { "key": "ctrl+w d", "command": "workbench.action.splitEditorDown" },
 
-  { "key": "ctrl+k left", "command": "workbench.action.focusLeftGroup" },
-  { "key": "ctrl+k down", "command": "workbench.action.focusBelowGroup" },
-  { "key": "ctrl+k up", "command": "workbench.action.focusAboveGroup" },
-  { "key": "ctrl+k right", "command": "workbench.action.focusRightGroup" },
+  { "key": "ctrl+w left", "command": "workbench.action.focusLeftGroup" },
+  { "key": "ctrl+w down", "command": "workbench.action.focusBelowGroup" },
+  { "key": "ctrl+w up", "command": "workbench.action.focusAboveGroup" },
+  { "key": "ctrl+w right", "command": "workbench.action.focusRightGroup" },
 
-  { "key": "alt+left", "command": "workbench.action.focusLeftGroup" },
-  { "key": "alt+down", "command": "workbench.action.focusBelowGroup" },
-  { "key": "alt+up", "command": "workbench.action.focusAboveGroup" },
-  { "key": "alt+right", "command": "workbench.action.focusRightGroup" },
-
-  { "key": "ctrl+k ctrl+left", "command": "workbench.action.decreaseViewSize" },
-  {
-    "key": "ctrl+k ctrl+down",
-    "command": "workbench.action.decreaseViewHeight"
-  },
-  { "key": "ctrl+k ctrl+up", "command": "workbench.action.increaseViewHeight" },
-  {
-    "key": "ctrl+k ctrl+right",
-    "command": "workbench.action.increaseViewSize"
-  },
+  { "key": "ctrl+w ctrl+down", "command": "workbench.action.decreaseViewSize" },
+  { "key": "ctrl+w ctrl+up", "command": "workbench.action.increaseViewSize" },
 
   {
-    "key": "ctrl+k shift+left",
+    "key": "ctrl+w shift+left",
     "command": "workbench.action.moveActiveEditorGroupLeft"
   },
   {
-    "key": "ctrl+k shift+down",
+    "key": "ctrl+w shift+down",
     "command": "workbench.action.moveActiveEditorGroupDown"
   },
   {
-    "key": "ctrl+k shift+up",
+    "key": "ctrl+w shift+up",
     "command": "workbench.action.moveActiveEditorGroupUp"
   },
   {
-    "key": "ctrl+k shift+right",
+    "key": "ctrl+w shift+right",
     "command": "workbench.action.moveActiveEditorGroupRight"
   },
+
+  {
+    "key": "ctrl+w z",
+    "command": "workbench.action.toggleMaximizeEditorGroup"
+  },
+
+  { "key": "ctrl+w j", "command": "workbench.action.joinAllGroups" },
 
   {
     "key": "/",
@@ -73,5 +67,7 @@
     "key": "ctrl+f",
     "command": "list.find",
     "when": "listFocus && listSupportsFind"
-  }
+  },
+
+  { "key": "ctrl+backspace", "command": "workbench.action.zoomReset" }
 ]
