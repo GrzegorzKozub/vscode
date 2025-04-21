@@ -31,8 +31,28 @@
   { "key": "ctrl+w up", "command": "workbench.action.focusAboveGroup" },
   { "key": "ctrl+w right", "command": "workbench.action.focusRightGroup" },
 
-  { "key": "ctrl+w ctrl+down", "command": "workbench.action.decreaseViewSize" },
-  { "key": "ctrl+w ctrl+up", "command": "workbench.action.increaseViewSize" },
+  {
+    "key": "ctrl+w ctrl+left",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+w ctrl+down",
+    "command": "workbench.action.decreaseViewHeight"
+  },
+  { "key": "ctrl+w ctrl+up", "command": "workbench.action.increaseViewHeight" },
+  {
+    "key": "ctrl+w ctrl+right",
+    "command": "workbench.action.increaseViewWidth"
+  },
+
+  {
+    "key": "ctrl+w ctrl+=",
+    "command": "workbench.action.increaseViewSize"
+  },
+  {
+    "key": "ctrl+w ctrl+-",
+    "command": "workbench.action.decreaseViewSize"
+  },
 
   {
     "key": "ctrl+w shift+left",
