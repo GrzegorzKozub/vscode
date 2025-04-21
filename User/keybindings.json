@@ -21,7 +21,7 @@
   { "key": "alt+left", "command": "workbench.action.navigateBack" },
   { "key": "alt+right", "command": "workbench.action.navigateForward" },
 
-  { "key": "ctrl+w ctrl+w", "command": "workbench.action.closeActiveEditor" },
+  { "key": "ctrl+w c", "command": "workbench.action.closeActiveEditor" },
 
   { "key": "ctrl+w r", "command": "workbench.action.splitEditor" },
   { "key": "ctrl+w d", "command": "workbench.action.splitEditorDown" },
