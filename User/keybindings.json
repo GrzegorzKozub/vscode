@@ -32,20 +32,6 @@
   { "key": "ctrl+w right", "command": "workbench.action.focusRightGroup" },
 
   {
-    "key": "ctrl+w ctrl+left",
-    "command": "workbench.action.decreaseViewWidth"
-  },
-  {
-    "key": "ctrl+w ctrl+down",
-    "command": "workbench.action.decreaseViewHeight"
-  },
-  { "key": "ctrl+w ctrl+up", "command": "workbench.action.increaseViewHeight" },
-  {
-    "key": "ctrl+w ctrl+right",
-    "command": "workbench.action.increaseViewWidth"
-  },
-
-  {
     "key": "ctrl+w ctrl+=",
     "command": "workbench.action.increaseViewSize"
   },
@@ -55,27 +41,9 @@
   },
 
   {
-    "key": "ctrl+w shift+left",
-    "command": "workbench.action.moveActiveEditorGroupLeft"
-  },
-  {
-    "key": "ctrl+w shift+down",
-    "command": "workbench.action.moveActiveEditorGroupDown"
-  },
-  {
-    "key": "ctrl+w shift+up",
-    "command": "workbench.action.moveActiveEditorGroupUp"
-  },
-  {
-    "key": "ctrl+w shift+right",
-    "command": "workbench.action.moveActiveEditorGroupRight"
-  },
-
-  {
     "key": "ctrl+w z",
     "command": "workbench.action.toggleMaximizeEditorGroup"
   },
-
   { "key": "ctrl+w j", "command": "workbench.action.joinAllGroups" },
 
   {
