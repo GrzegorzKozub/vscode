@@ -5,6 +5,8 @@
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.toolBarLocation": "docked",
+  "docker.lsp.telemetry": "off",
+  "dotnetAcquisitionExtension.enableTelemetry": false,
   "diffEditor.experimental.showMoves": true,
   "editor.bracketPairColorization.enabled": false,
   "editor.codeLens": false,
@@ -20,7 +22,8 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
-  "editor.inlayHints.enabled": "offUnlessPressed",
+  "editor.inlayHints.enabled": "offUnlessPressed", // ctrl+alt
+  "editor.inlineSuggest.enabled": false, // alt+\
   "editor.minimap.enabled": false,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.renderWhitespace": "none",
@@ -37,7 +40,6 @@
   "git.blame.statusBarItem.enabled": true,
   "git.blame.statusBarItem.template": "${authorName}, ${authorDateAgo}, ${hashShort}",
   "git.openRepositoryInParentFolders": "always",
-  "github.copilot.chat.agent.thinkingTool": true,
   "github.copilot.enable": {
     "*": false,
     "csharp": true,
@@ -112,6 +114,7 @@
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
+  "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "kitty",
   "terminal.external.windowsExec": "wezterm-gui.exe",
