@@ -22,8 +22,9 @@
   { "key": "alt+right", "command": "workbench.action.navigateForward" },
 
   { "key": "ctrl+w c", "command": "workbench.action.closeActiveEditor" },
+  { "key": "ctrl+w ctrl+c", "command": "workbench.action.closeAllEditors" },
 
-  { "key": "ctrl+w r", "command": "workbench.action.splitEditor" },
+  { "key": "ctrl+w r", "command": "workbench.action.splitEditorRight" },
   { "key": "ctrl+w d", "command": "workbench.action.splitEditorDown" },
 
   { "key": "ctrl+w left", "command": "workbench.action.focusLeftGroup" },
