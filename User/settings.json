@@ -74,6 +74,7 @@
   "npm.packageManager": "npm",
   "python.analysis.inlayHints.callArgumentNames": "all",
   "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.typeCheckingMode": "strict",
   "python.analysis.inlayHints.variableTypes": true,
   "python.experiments.optInto": ["pythonTestAdapter"],
   "python.languageServer": "Pylance",
