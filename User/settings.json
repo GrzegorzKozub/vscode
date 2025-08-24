@@ -8,6 +8,7 @@
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "diffEditor.experimental.showMoves": true,
   "editor.bracketPairColorization.enabled": false,
+  "editor.codeActionsOnSave": { "source.organizeImports": "explicit" },
   "editor.codeLens": false,
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.codeLensFontSize": 14,
