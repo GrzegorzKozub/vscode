@@ -64,6 +64,7 @@
   "json.schemaDownload.enable": true,
   "Lua.hint.enable": true,
   "Lua.hint.setType": true,
+  "Lua.runtime.version": "LuaJIT",
   "markdown.preview.fontSize": 16,
   "markdown.preview.markEditorSelection": false,
   "markdown.validate.enabled": true,
