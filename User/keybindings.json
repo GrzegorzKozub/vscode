@@ -58,5 +58,10 @@
     "when": "listFocus && listSupportsFind"
   },
 
-  { "key": "ctrl+backspace", "command": "workbench.action.zoomReset" }
+  { "key": "ctrl+backspace", "command": "workbench.action.zoomReset" },
+
+  {
+    "key": "shift+escape",
+    "command": "workbench.action.toggleMaximizedAuxiliaryBar"
+  }
 ]
