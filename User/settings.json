@@ -94,6 +94,7 @@
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
+  "symbols.hidesExplorerArrows": true,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "kitty",
