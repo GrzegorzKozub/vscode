@@ -1,5 +1,6 @@
 {
   "breadcrumbs.enabled": false,
+  "catppuccin-icons.hidesExplorerArrows": true,
   "chat.agent.enabled": true,
   "chat.editor.fontSize": 14,
   "cSpell.useCustomDecorations": false,
@@ -68,11 +69,6 @@
   "markdown.preview.fontSize": 16,
   "markdown.preview.markEditorSelection": false,
   "markdown.validate.enabled": true,
-  "material-icon-theme.activeIconPack": "none",
-  "material-icon-theme.folders.color": "#928374", // grey1
-  "material-icon-theme.folders.theme": "specific",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "material-icon-theme.saturation": 0.5,
   "npm.packageManager": "npm",
   "python.analysis.inlayHints.callArgumentNames": "all",
   "python.analysis.inlayHints.functionReturnTypes": true,
@@ -149,7 +145,7 @@
   "workbench.colorCustomizations": { "[*]": {} },
   "workbench.colorTheme": "Gruvbox Material Flat Dark",
   "workbench.editor.empty.hint": "hidden",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-latte",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Gruvbox Material Flat Dark",
   "workbench.preferredLightColorTheme": "Gruvbox Material Flat Light",
