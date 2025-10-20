@@ -56,7 +56,7 @@
   "gopls": { "ui.diagnostic.analyses": { "shadow": true } },
   "html.format.wrapLineLength": 0,
   "isort.args": ["--profile", "black"],
-  // "java.configuration.maven.userSettings": "~/.config/maven/settings.xml",
+  "java.configuration.maven.userSettings": "~/.config/maven/settings.xml",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
