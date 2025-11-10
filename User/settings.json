@@ -72,13 +72,10 @@
   "markdown.preview.markEditorSelection": false,
   "markdown.validate.enabled": true,
   "npm.packageManager": "npm",
-  "python.analysis.inlayHints.callArgumentNames": "all",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.typeCheckingMode": "strict",
-  "python.analysis.inlayHints.variableTypes": true,
+  "python.languageServer": "None",
   "python.experiments.optInto": ["pythonTestAdapter"],
-  "python.languageServer": "Pylance",
   "redhat.telemetry.enabled": false,
+  // "ruff.lineLength": 88, // black's convention
   "rust-analyzer.check.command": "clippy",
   "rust-analyzer.inlayHints.bindingModeHints.enable": true,
   "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
@@ -159,12 +156,28 @@
   "workbench.tree.renderIndentGuides": "none",
   "yaml.format.singleQuote": true,
   "yaml.validate": false,
-  "[cucumber]": { "editor.semanticHighlighting.enabled": true },
-  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  "[cucumber]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
