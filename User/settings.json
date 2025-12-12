@@ -55,6 +55,7 @@
   "gopls": { "ui.diagnostic.analyses": { "shadow": true } },
   "html.format.wrapLineLength": 0,
   "inlineChat.enableV2": true,
+  "java.compile.nullAnalysis.mode": "disabled",
   "java.configuration.maven.userSettings": "~/.config/maven/settings.xml",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
