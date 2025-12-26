@@ -68,6 +68,6 @@
   {
     "key": "alt+\\",
     "command": "editor.action.inlineSuggest.trigger",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly && !inlineSuggestionVisible"
   }
 ]

@@ -40,7 +40,7 @@
   "editor.guides.bracketPairs": false,
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "offUnlessPressed", // ctrl+alt
-  "editor.inlineSuggest.enabled": true, // alt+\
+  "editor.inlineSuggest.enabled": false, // alt+\
   "editor.minimap.enabled": false,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.renderWhitespace": "none",
