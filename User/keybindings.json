@@ -63,5 +63,11 @@
   {
     "key": "shift+escape",
     "command": "workbench.action.toggleMaximizedAuxiliaryBar"
+  },
+
+  {
+    "key": "alt+\\",
+    "command": "editor.action.inlineSuggest.trigger",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
