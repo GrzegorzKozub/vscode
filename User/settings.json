@@ -23,9 +23,6 @@
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.toolBarLocation": "docked",
-  "docker.extension.editor.dockerfileBuildStageDecorationLines": false,
-  "docker.extension.enableComposeLanguageServer": true,
-  "docker.lsp.telemetry": "off",
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "diffEditor.experimental.showMoves": true,
   "editor.bracketPairColorization.enabled": false,
@@ -193,13 +190,6 @@
   "workbench.tree.renderIndentGuides": "none",
   "yaml.extension.recommendations": false,
   "yaml.format.singleQuote": true,
-  "yaml.schemas": {
-    // https://github.com/docker/vscode-extension/blob/main/FAQ.md#i-am-seeing-duplicated-editor-features-such-as-code-completion-suggestions-hover-tooltips-etc-in-compose-files
-    "https://raw.githubusercontent.com/docker/vscode-extension/6a88caada42b57090df7ce91ec2a6561b422afe1/misc/empty.json": [
-      "compose*y*ml",
-      "docker-compose*y*ml"
-    ]
-  },
   "yaml.validate": false,
   "[cucumber]": {
     "editor.semanticHighlighting.enabled": true
