@@ -12,9 +12,9 @@
     "**/*.key": false,
     "**/*.ovpn": false,
     "**/*.pem": false,
+    "**/*.secret": false,
     "**/*credentials": false,
     "**/*settings.xml": false,
-    "**/*vault": false,
     "**/.secrets/**": false,
     "**/keys/**": false
   },
