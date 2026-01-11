@@ -1,5 +1,5 @@
 {
-  "breadcrumbs.enabled": false,
+  // "breadcrumbs.enabled": false,
   "catppuccin-icons.hidesExplorerArrows": true,
   "chat.agent.enabled": true,
   "chat.editor.fontSize": 14,
@@ -19,6 +19,7 @@
     "**/keys/**": false
   },
   // "chat.tools.eligibleForAutoApproval": {},
+  "chat.useAgentSkills": true,
   "chat.viewWelcome.enabled": false,
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
