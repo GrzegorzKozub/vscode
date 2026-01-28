@@ -1,7 +1,6 @@
 {
   // "breadcrumbs.enabled": false,
   "catppuccin-icons.hidesExplorerArrows": true,
-  "chat.agent.enabled": true,
   "chat.editor.fontSize": 14,
   // "chat.fontSize": 14,
   "chat.tools.edits.autoApprove": {
@@ -16,7 +15,7 @@
     "**/*credentials": false,
     "**/*settings.xml": false,
     "**/.secrets/**": false,
-    "**/keys/**": false
+    "**/keys/**": false,
   },
   // "chat.tools.eligibleForAutoApproval": {},
   "chat.useAgentSkills": true,
@@ -70,7 +69,7 @@
     "jsonc": false,
     "properties": false,
     "xml": false,
-    "yaml": false
+    "yaml": false,
   },
   "github.copilot.nextEditSuggestions.enabled": false,
   "github.copilot.renameSuggestions.triggerAutomatically": false,
@@ -146,14 +145,14 @@
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
   "terminal.integrated.profiles.linux": {
-    "zsh": { "icon": "terminal", "path": "zsh" }
+    "zsh": { "icon": "terminal", "path": "zsh" },
   },
   "terminal.integrated.profiles.windows": {
     "pwsh": {
       "args": ["-NoLogo"],
       "icon": "terminal-powershell",
-      "path": "pwsh.exe"
-    }
+      "path": "pwsh.exe",
+    },
   },
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.shellIntegration.enabled": false,
@@ -193,27 +192,27 @@
   "yaml.format.singleQuote": true,
   "yaml.validate": false,
   "[cucumber]": {
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "charliermarsh.ruff",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
