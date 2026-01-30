@@ -160,6 +160,7 @@
   "terminal.integrated.tabs.title": "${process}${separator}${progress}",
   "terminal.integrated.tabStopWidth": 2,
   "terminal.integrated.windowsUseConptyDll": true,
+  "terraform.experimentalFeatures.prefillRequiredFields": true,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -208,6 +209,12 @@
   },
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
