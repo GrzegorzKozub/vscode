@@ -1,6 +1,7 @@
 {
   // "breadcrumbs.enabled": false,
   "catppuccin-icons.hidesExplorerArrows": true,
+  "chat.agentSkillsLocations": { "~/.config/claude/skills": true },
   "chat.editor.fontSize": 14,
   // "chat.fontSize": 14,
   "chat.tools.edits.autoApprove": {
@@ -19,7 +20,6 @@
   },
   // "chat.tools.eligibleForAutoApproval": {},
   "chat.useAgentSkills": true,
-  "chat.viewWelcome.enabled": false,
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.toolBarLocation": "docked",
@@ -124,6 +124,7 @@
   "security.workspace.trust.enabled": false,
   "search.smartCase": true,
   "symbols.hidesExplorerArrows": true,
+  "telemetry.editStats.enabled": false,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "kitty",
