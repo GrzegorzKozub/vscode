@@ -34,6 +34,10 @@
       "settings.xml",
     ],
   },
+  // "chat.tools.terminal.sandbox.network": {
+  //   "allowedDomains": [],
+  //   "deniedDomains": [],
+  // },
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.toolBarLocation": "docked",
