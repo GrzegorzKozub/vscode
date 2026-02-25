@@ -106,7 +106,7 @@
   "go.survey.prompt": false,
   "gopls": { "ui.diagnostic.analyses": { "shadow": true } },
   "html.format.wrapLineLength": 0,
-  "inlineChat.defaultModel": "Claude Opus 4.6 (copilot)",
+  "inlineChat.defaultModel": "Claude Sonnet 4.6 (copilot)",
   "inlineChat.enableV2": true,
   "java.compile.nullAnalysis.mode": "disabled",
   "java.configuration.maven.userSettings": "~/.config/maven/settings.xml",
