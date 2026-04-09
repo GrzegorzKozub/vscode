@@ -138,7 +138,6 @@
   // "scm.repositories.explorer": true,
   // "scm.repositories.selectionMode": "single",
   "security.promptForLocalFileProtocolHandling": false,
-  "security.workspace.trust.enabled": false,
   "search.smartCase": true,
   "symbols.hidesExplorerArrows": true,
   "telemetry.editStats.enabled": false,
