@@ -1,8 +1,8 @@
 {
   // "breadcrumbs.enabled": false,
   "catppuccin-icons.hidesExplorerArrows": true,
-  "chat.agent.sandbox": true,
-  "chat.agent.sandboxFileSystem.linux": {
+  "chat.agent.sandbox.enabled": "on",
+  "chat.agent.sandbox.fileSystem.linux": {
     "denyRead": [
       ".env",
       ".secrets",
@@ -33,7 +33,6 @@
     "**/.secrets/**": false,
     "**/keys/**": false,
   },
-  // "chat.tools.eligibleForAutoApproval": {},
   "cSpell.useCustomDecorations": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.toolBarLocation": "docked",
