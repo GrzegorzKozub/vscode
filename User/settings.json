@@ -191,6 +191,7 @@
   "workbench.colorCustomizations": { "[*]": {} },
   "workbench.colorTheme": "Gruvbox Material Flat Dark",
   "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.useModal": "off",
   "workbench.iconTheme": "catppuccin-latte",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Gruvbox Material Flat Dark",
