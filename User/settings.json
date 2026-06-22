@@ -65,7 +65,7 @@
   "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": { "[*]": { "textMateRules": [] } },
   "editor.wordWrapColumn": 80,
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": "off",
   "extensions.ignoreRecommendations": true,
   "files.hotExit": "onExitAndWindowClose",
   "git.blame.editorDecoration.enabled": false,
