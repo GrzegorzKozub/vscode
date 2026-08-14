@@ -64,6 +64,7 @@
   "editor.semanticHighlighting.enabled": false,
   "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": { "[*]": { "textMateRules": [] } },
+  "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordWrapColumn": 80,
   "extensions.autoUpdate": "off",
   "extensions.ignoreRecommendations": true,
