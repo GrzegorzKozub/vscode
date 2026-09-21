@@ -24,6 +24,7 @@
     ],
     "denyWrite": ["/run/media", "~/"],
   },
+
   "chat.agentSessions.showExternal": "none",
   "chat.assistedPermissions.enabled": true,
   "chat.editing.explainChanges.enabled": true,
@@ -236,6 +237,7 @@
   "terminal.integrated.fontLigatures.enabled": true,
   "terminal.integrated.fontLigatures.featureSettings": "\"calt\" on, \"ss01\" on",
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.initialHint": false,
   "terminal.integrated.minimumContrastRatio": 1,
   "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
   "terminal.integrated.profiles.linux": {
