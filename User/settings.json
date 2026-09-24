@@ -1,6 +1,6 @@
 {
   "accessibility.dimUnfocused.enabled": true,
-  "accessibility.dimUnfocused.opacity": 0.8,
+  "accessibility.dimUnfocused.opacity": 0.9,
   "catppuccin-icons.hidesExplorerArrows": true,
   "chat.agent.sandbox.enabled": "on",
   "chat.agent.sandbox.enabledWindows": "on",
